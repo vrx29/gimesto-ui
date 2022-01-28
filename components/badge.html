@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gimesto</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../gimesto.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">Gimesto</a>  
+        </div>
+            <ul class="header-nav">
+                <li>
+                    <a href="https://github.com/vrx29/">
+                        <i class="bi bi-github github-icon"></i>
+                         github
+                    </a>
+                </li>
+                <li>
+                    <button class="menu">
+                        <i id="menu-icon" class="bi bi-list"></i>
+                    </button>
+                </li>
+            </ul>  
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+    <main class="doc-container">
+        <!-- Sidebar Section Start -->
+        <nav class="sidebar">
+            <!-- Getting Started Navigation Start -->
+            <div>
+                <div class="list-topic">
+                    <a  href="#">GETTING STARTED</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li >
+                        <a href="#">Installation</a>
+                    </li>
+                    <li>
+                        <a href="#">Colors</a>
+                    </li>
+                    <li>
+                        <a href="#">Typography</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Getting Started Navigation End -->
+
+            <!-- Components Navigation Start -->
+           <div>
+                <div class="list-topic">
+                    <a class="" href="#">COMPONENTS</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li>
+                        <a href="/components/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="#">Alert</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Badge</a>
+                    </li>
+                    <li>
+                        <a href="#">Button</a>
+                    </li>
+                    <li>
+                        <a href="#">Card</a>
+                    </li>
+                    <li>
+                        <a href="#">Image</a>
+                    </li>
+                    <li>
+                        <a href="#">Input</a>
+                    </li>
+                    <li>
+                        <a href="#">List</a>
+                    </li>
+                    <li>
+                        <a href="#">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="#">Modal</a>
+                    </li>
+                    <li>
+                        <a href="#">Rating</a>
+                    </li>
+                    <li>
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Components Navigation End -->
+        </nav>
+        <!-- Sidebar Section End -->
+
+        <!-- Main Content Section Start -->
+        <section class="doc-content">
+            <h1 class="title">Badge</h1>
+            <div class="subtitle">Badges are showing a small amount of color-categorized meta data. They are ideal for getting users attention. Either they represent some data or status using various color combinations.</div>
+
+            <h1 class="title">Profile Badge</h1>
+            <div class="subtitle">Profile badges can used to display user states of a user.</div>
+
+            <div class="output-cont">
+                <div class="badge">
+                    <img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" />
+                    <div class="online"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar" src="../assets/avatars/avatar2.jpg" alt="avatar" />
+                    <div class="sharing"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar" src="../assets/avatars/avatar3.jpg" alt="avatar" />
+                    <div class="offline"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar" src="../assets/avatars/avatar4.jpg" alt="avatar" />
+                    <div class="busy"></div>
+                </div>
+                <div class="badge">
+                    <img class="avatar" src="../assets/avatars/avatar5.jpg" alt="avatar" />
+                    <div class="away"></div>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'badge' class name -->
+                        
+
+                        <-- Use the 'online' class name for showing online status -->
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                            &lt;div class="online">&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+
+                        <-- Use the 'sharing' class name for showing sharing status -->
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                            &lt;div class="sharing">&lt;/div&gt;
+                        &lt;/div&gt;
+
+
+                        <-- Use the 'offline' class name for showing offline status -->
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                            &lt;div class="offline">&lt;/div&gt;
+                        &lt;/div&gt;
+
+
+                        <-- Use the 'busy' class name for showing busy status -->
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                            &lt;div class="busy">&lt;/div&gt;
+                        &lt;/div&gt;
+
+
+                        <-- Use the 'away' class name for showing away status -->
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                            &lt;div class="away">&lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h1 class="title">Icon Badge</h1>
+            <div class="subtitle">Icon badges are generally used to display the notification count for a particular component or if a component contains some items it can used to display the count of items present inside that component.</div>
+            <div class="output-cont">
+                <div class="badge">
+                    <img class="avatar icon-badge" src="../assets/chat.svg" alt="chat-icon" />
+                    <div class="number online">5</div>
+                </div>
+                 <div class="badge">
+                    <img class="avatar icon-badge" src="../assets/cart.svg" alt="chat-icon" />
+                    <div class="number">5</div>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html">
+                        <-- Using the 'badge' class name -->
+                        <-- Using 'number' class for showing notification count -->
+                        
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar icon-badge" src="../assets/chat.svg" alt="chat-icon" /&gt;
+                            &lt;div class="number online">5&lt;/div&gt;
+                        &lt;/div&gt;
+
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar icon-badge" src="../assets/cart.svg" alt="chat-icon" /&gt;
+                            &lt;div class="number">5&lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+            <!-- Code Snippet Section End -->
+
+            <h1 class="title">Pill Badge</h1>
+            <div class="subtitle">Pill badges can be used to display some meta info for something or can be used for tags.</div>
+            <div class="output-cont">
+                <div class="badge pill">Primary</div>
+                <div class="badge pill pill-secondary">Secondary</div>
+                <div class="badge pill pill-warning">Warning</div>
+                <div class="badge pill pill-danger">Danger</div>
+                <div class="badge pill pill-success">Success</div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html">
+                        <-- Using the 'badge' class name -->
+                        <-- Using 'number' class for showing notification count -->
+                        
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar icon-badge" src="../assets/chat.svg" alt="chat-icon" /&gt;
+                            &lt;div class="number online">5&lt;/div&gt;
+                        &lt;/div&gt;
+                        
+                        &lt;div class="badge"&gt;
+                            &lt;img class="avatar icon-badge" src="../assets/cart.svg" alt="chat-icon" /&gt;
+                            &lt;div class="number">5&lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>
+            <!-- Code Snippet Section End -->
+
+            <!-- Page Navigation Section Start -->
+           <div class="page-navigation">
+                <a class="navigation-prev" href="#"><i class="bi bi-caret-left-fill left-icon"></i>Alert</a>
+                <a class="navigation-next" href="#">Button<i class="bi bi-caret-right-fill right-icon"></i></a>
+            </div>
+            <!-- Page Navigation Section End -->
+        </section>
+        <!-- Main Content Section End -->
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Scripts Used in this project -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../scripts/header.js"></script>
+</html>

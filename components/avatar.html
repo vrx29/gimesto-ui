@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gimesto</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../gimesto.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">Gimesto</a>  
+        </div>
+            <ul class="header-nav">
+                <li>
+                    <a href="https://github.com/vrx29/">
+                        <i class="bi bi-github github-icon"></i>
+                         github
+                    </a>
+                </li>
+                <li>
+                    <button class="menu">
+                        <i id="menu-icon" class="bi bi-list"></i>
+                    </button>
+                </li>
+            </ul>  
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+    <main class="doc-container">
+        <!-- Sidebar Section Start -->
+        <nav class="sidebar">
+            <!-- Getting Started Navigation Start -->
+            <div>
+                <div class="list-topic">
+                    <a  href="#">GETTING STARTED</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li >
+                        <a href="#">Installation</a>
+                    </li>
+                    <li>
+                        <a href="#">Colors</a>
+                    </li>
+                    <li>
+                        <a href="#">Typography</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Getting Started Navigation End -->
+
+            <!-- Components Navigation Start -->
+           <div>
+                <div class="list-topic">
+                    <a class="" href="#">COMPONENTS</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li>
+                        <a class="active" href="/components/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="#">Alert</a>
+                    </li>
+                    <li>
+                        <a href="/components/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a href="#">Button</a>
+                    </li>
+                    <li>
+                        <a href="#">Card</a>
+                    </li>
+                    <li>
+                        <a href="#">Image</a>
+                    </li>
+                    <li>
+                        <a href="#">Input</a>
+                    </li>
+                    <li>
+                        <a href="#">List</a>
+                    </li>
+                    <li>
+                        <a href="#">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="#">Modal</a>
+                    </li>
+                    <li>
+                        <a href="#">Rating</a>
+                    </li>
+                    <li>
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Components Navigation End -->
+        </nav>
+        <!-- Sidebar Section End -->
+
+        <!-- Main Content Section Start -->
+        <section class="doc-content">
+            <h1 class="title">Avatar</h1>
+            <div class="subtitle">An avatar is a thumbnail representation of an entity, such as a user or an organisation. </div>
+
+            <h1 class="title">Profile Avatar</h1>
+            <div class="subtitle">Profile avatar can be created using “avatar” class in image tag.</div>
+
+            <div class="output-cont">
+                <img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" />
+                <img class="avatar" src="../assets/avatars/avatar2.jpg" alt="avatar" />
+                <img class="avatar" src="../assets/avatars/avatar3.jpg" alt="avatar" />
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'avatar' class name -->
+                        
+                        
+                        &lt;img class="avatar" src="./assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h1 class="title">Avatar Sizes</h1>
+            <div class="subtitle">Profile avatar can be created using “avatar” class in image tag. For creating avatas for different sizes we can use classes like 'xs','sm','md','lg','xl'</div>
+            <div class="output-cont">
+                <img class="avatar xs" src="../assets/avatars/avatar1.jpg" alt="avatar" />
+                <img class="avatar sm" src="../assets/avatars/avatar2.jpg" alt="avatar" />
+                <img class="avatar md" src="../assets/avatars/avatar3.jpg" alt="avatar" />
+                <img class="avatar lg" src="../assets/avatars/avatar4.jpg" alt="avatar" />
+                <img class="avatar xl" src="../assets/avatars/avatar5.jpg" alt="avatar" />
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html">
+                        <-- Using the xs | sm | md | lg | xl class names for different sizes -->
+                      
+
+                        &lt;img class="avatar xs" src="./assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                        
+                        &lt;img class="avatar sm" src="./assets/avatars/avatar2.jpg" alt="avatar" /&gt;
+                        
+                        &lt;img class="avatar md" src="./assets/avatars/avatar3.jpg" alt="avatar" /&gt;
+                        
+                        &lt;img class="avatar lg" src="./assets/avatars/avatar4.jpg" alt="avatar" /&gt;
+                        
+                        &lt;img class="avatar xl" src="./assets/avatars/avatar5.jpg" alt="avatar" /&gt;
+                    </code>
+                </pre>
+            </div>
+            <!-- Code Snippet Section End -->
+
+            <!-- Page Navigation Section Start -->
+           <div class="page-navigation">
+                <a class="navigation-prev" href="#"><i class="bi bi-caret-left-fill left-icon"></i>Typography</a>
+                <a class="navigation-next" href="#" >Alert<i class="bi bi-caret-right-fill right-icon"></i></a>
+            </div>
+            <!-- Page Navigation Section End -->
+        </section>
+        <!-- Main Content Section End -->
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Scripts Used in this project -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../scripts/header.js"></script>
+</html>

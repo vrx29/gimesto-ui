@@ -1,0 +1,82 @@
+.badge {
+  position: relative;
+}
+.badge > div {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 50%;
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-light);
+}
+.badge .online {
+  background-color: var(--color-success);
+}
+.badge .busy {
+  background-color: var(--color-danger);
+}
+.badge .offline {
+  background-color: #70707c;
+}
+.badge .away {
+  background-color: var(--color-warning);
+}
+.badge .sharing {
+  background-color: var(--color-danger);
+}
+.badge .sharing::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 6px;
+  top: 50%;
+  left: 50%;
+  margin-top: -1px;
+  margin-left: -3px;
+  border-radius: 10px;
+  background-color: var(--color-light);
+}
+
+/* Icon badge Styling */
+.badge .icon-badge {
+  border-radius: 0;
+}
+.badge .number {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.6rem;
+  height: 16px;
+  width: 16px;
+  border: none;
+  top: 1px;
+  right: 8px;
+  border-radius: 50%;
+  color: var(--color-light);
+}
+
+/* pill badge Styling */
+.pill {
+  font-size: 75%;
+  font-weight: 700;
+  padding: 0.1rem 0.5rem;
+  margin: 0 0.1rem;
+  background-color: var(--color-primary);
+  color: var(--color-light);
+  border-radius: 5rem;
+}
+.pill-secondary {
+  background-color: var(--color-secondary);
+}
+.pill-danger {
+  background-color: var(--color-danger);
+}
+.pill-warning {
+  background-color: var(--color-warning);
+}
+.pill-success {
+  background-color: var(--color-success);
+}
