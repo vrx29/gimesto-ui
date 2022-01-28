@@ -1,0 +1,54 @@
+.hero {
+  padding: 2rem;
+  display: flex;
+  gap: 1rem;
+  height: 80vh;
+}
+.hero > div {
+  padding: 1rem;
+  flex: 1 1 50%;
+}
+.title {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 55px;
+}
+.btn {
+  min-width: 120px;
+  padding: 0.8rem 2rem;
+  font-weight: 600;
+  color: var(--color-light);
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  background-color: var(--color-primary);
+}
+.hero-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.hero-left .subtitle {
+  color: #5b5b65;
+}
+.hero-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-img-cont {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+}

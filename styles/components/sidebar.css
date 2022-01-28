@@ -1,0 +1,53 @@
+.sidebar {
+  top: 6rem;
+  height: 80vh;
+  width: 280px;
+  overflow-y: scroll;
+  position: sticky;
+  flex-shrink: 0;
+}
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+.list-topic {
+  font-size: 1rem;
+  line-height: 1.25rem;
+  font-weight: 600;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+  color: #2c2c35;
+}
+.list-subtopic {
+  list-style: none;
+}
+.list-subtopic li {
+  padding: 0.5rem 1rem;
+  color: #70707c;
+}
+.list-subtopic a:hover {
+  padding-left: 0.5rem;
+  transition: all 0.3s ease-in-out;
+  color: #ff3b78;
+  position: relative;
+}
+.active {
+  padding-left: 0.5rem;
+  width: 100%;
+  font-weight: 600;
+  color: var(--color-primary);
+  position: relative;
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .sidebar-active {
+    display: block;
+    width: 100%;
+  }
+}
