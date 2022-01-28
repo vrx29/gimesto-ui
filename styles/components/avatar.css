@@ -4,23 +4,23 @@
   border-radius: 50%;
   margin: 0 0.7rem;
 }
-.avatar.xs {
+.avatar-xs {
   width: 24px;
   height: 24px;
 }
-.avatar.sm {
+.avatar-sm {
   width: 32px;
   height: 32px;
 }
-.avatar.md {
+.avatar-md {
   width: 40px;
   height: 40px;
 }
-.avatar.lg {
+.avatar-lg {
   width: 48px;
   height: 48px;
 }
-.avatar.xl {
+.avatar-xl {
   width: 56px;
   height: 56px;
 }
