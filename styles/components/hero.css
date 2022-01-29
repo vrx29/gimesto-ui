@@ -13,16 +13,6 @@
   font-size: 40px;
   line-height: 55px;
 }
-.btn {
-  min-width: 120px;
-  padding: 0.8rem 2rem;
-  font-weight: 600;
-  color: var(--color-light);
-  border-radius: 5px;
-  border: transparent;
-  cursor: pointer;
-  background-color: var(--color-primary);
-}
 .hero-left {
   display: flex;
   flex-direction: column;

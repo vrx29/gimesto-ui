@@ -1,11 +1,9 @@
 /* || Default Button CSS */
 .btn {
   min-width: 120px;
-  max-height: 40px;
   padding: 0.8rem 1rem;
   font-weight: 600;
   color: var(--color-light);
-  margin: 0 0.5rem;
   border-radius: 5px;
   border: transparent;
   cursor: pointer;
