@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gimesto</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../gimesto.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">Gimesto</a>  
+        </div>
+            <ul class="header-nav">
+                <li>
+                    <a href="https://github.com/vrx29/">
+                        <i class="bi bi-github github-icon"></i>
+                         github
+                    </a>
+                </li>
+                <li>
+                    <button class="menu">
+                        <i id="menu-icon" class="bi bi-list"></i>
+                    </button>
+                </li>
+            </ul>  
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+    <main class="doc-container">
+        <!-- Sidebar Section Start -->
+        <nav class="sidebar">
+            <!-- Getting Started Navigation Start -->
+            <div>
+                <div class="list-topic">
+                    <a  href="#">GETTING STARTED</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li >
+                        <a href="#">Installation</a>
+                    </li>
+                    <li>
+                        <a href="#">Colors</a>
+                    </li>
+                    <li>
+                        <a href="#">Typography</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Getting Started Navigation End -->
+
+            <!-- Components Navigation Start -->
+           <div>
+                <div class="list-topic">
+                    <a class="" href="#">COMPONENTS</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li>
+                        <a href="/components/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="/components/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a href="/components/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Button</a>
+                    </li>
+                    <li>
+                        <a href="#">Card</a>
+                    </li>
+                    <li>
+                        <a href="#">Image</a>
+                    </li>
+                    <li>
+                        <a href="#">Input</a>
+                    </li>
+                    <li>
+                        <a href="#">List</a>
+                    </li>
+                    <li>
+                        <a href="#">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="#">Modal</a>
+                    </li>
+                    <li>
+                        <a href="#">Rating</a>
+                    </li>
+                    <li>
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Components Navigation End -->
+        </nav>
+        <!-- Sidebar Section End -->
+
+        <!-- Main Content Section Start -->
+        <section class="doc-content">
+            <h1 class="title">Button</h1>
+            <div class="subtitle">The button component gives users the ability to perform an action or navigate to another page. They have multiple styles and states for different needs. Buttons are ideal for drawing the user's attention to exactly what action needs to be initialized.</div>
+
+            <h1 class="title">Solid Button</h1>
+            <div class="subtitle">Solid buttons are generally used to identify main actions.</div>
+            <div class="output-cont">
+                <button class="btn">DEFAULT</button>
+                <button class="btn btn-primary">PRIMARY</button>
+                <button class="btn btn-secondary">SECONDARY</button>
+                <button class="btn btn-warning">WARNING</button>
+                <button class="btn btn-success">SUCCESS</button>
+                <button class="btn btn-error">ERROR</button>
+            </div>
+
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'btn' class for displaying button-->
+                        
+                        &lt;button class="btn"&gt;DEFAULT&lt;/button&gt;
+                        &lt;button class="btn btn-primary"&gt;PRIMARY&lt;/button&gt;
+                        &lt;button class="btn btn-secondary"&gt;SECONDARY&lt;/button&gt;
+                        &lt;button class="btn btn-warning"&gt;WARNING&lt;/button&gt;
+                        &lt;button class="btn btn-success"&gt;SUCCESS&lt;/button&gt;
+                        &lt;button class="btn btn-error"&gt;ERROR&lt;/button&gt;
+                    </code>
+                </pre>
+            </div>   
+
+            <h1 class="title">Outline Button</h1>
+            <div class="subtitle">Sometimes we don't want to display solid buttons and need buttons which dont have background color. Use 'outline' variant of buttons for displaying outline buttons. Can also change the outline using 'outline-variant' classes.</div>
+            <div class="output-cont">
+                <button class="btn outline">DEFAULT</button>
+                <button class="btn outline-primary">PRIMARY</button>
+                <button class="btn outline-secondary">SECONDARY</button>
+                <button class="btn outline-warning">WARNING</button>
+                <button class="btn outline-success">SUCCESS</button>
+                <button class="btn outline-error">ERROR</button>
+            </div>
+
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'btn outline' class name for displaying outine button-->
+                        <-- Using the 'outline-variant' for different outine variants-->
+
+                        &lt;button class="btn outline"&gt;DEFAULT&lt;/button&gt;
+                        &lt;button class="btn outline-primary"&gt;PRIMARY&lt;/button&gt;
+                    </code>
+                </pre>
+            </div> 
+            
+            <h1 class="title">Icon Button</h1>
+            <div class="subtitle">Few actions need to be communicated through icons for that you can create buttons with icons. Using 'btn-icon' class.</div>
+            <div class="output-cont">
+                <button class="btn btn-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-bag-fill" viewBox="0 0 16 16">
+                    <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5z"/></svg>
+                    ADD TO BAG          
+                </button>
+            </div>
+
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'btn-icon' class for button with icons -->
+
+                        &lt;button class="btn btn-icon"&gt;
+                            &lt;svg&gt;&lt;/svg&gt;
+                            ADD TO BAG          
+                        &lt;/button&gt;
+                    </code>
+                </pre>
+            </div> 
+
+            <h1 class="title">Link Button</h1>
+            <div class="subtitle">Buttons which takes you to different location are called link buttons. These can be created using 'btn-link' class.</div>
+            <div class="output-cont">
+                <button class="btn btn-link">OPEN LINK</button>
+            </div>
+
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'btn-link' class for link buttons -->
+
+                        &lt;button class="btn btn-link"&gt;OPEN LINK&lt;/button&gt;
+                    </code>
+                </pre>
+            </div> 
+
+            <h1 class="title">Floating Button</h1>
+            <div class="subtitle">A floating action button (FAB) is a circular button that triggers the primary action in your app's UI. These floating buttons can be created using 'btn-floating' class</div>
+            <div class="output-cont">
+               <button class="btn btn-floating"><i class="bi bi-plus"></i></button>
+               <button class="btn btn-floating"><i class="bi bi-x"></i></button>
+            </div>
+
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'btn-floating' class for floating buttons -->
+
+                        &lt;button class="btn btn-floating"&gt;
+                            &lt;i class="bi bi-plus"&gt;&lt;/i&gt;
+                        &lt;/button&gt;
+                    </code>
+                </pre>
+            </div> 
+
+
+            <!-- Code Snippet Section End -->
+
+            <!-- Page Navigation Section Start -->
+           <div class="page-navigation">
+                <a class="navigation-prev" href="/components/badge.html"><i class="bi bi-caret-left-fill left-icon"></i>Badge</a>
+                <a class="navigation-next" href="/components/card.html" >Card<i class="bi bi-caret-right-fill right-icon"></i></a>
+            </div>
+            <!-- Page Navigation Section End -->
+        </section>
+        <!-- Main Content Section End -->
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Scripts Used in this project -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../scripts/header.js"></script>
+</html>

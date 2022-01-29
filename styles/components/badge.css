@@ -15,7 +15,7 @@
   background-color: var(--color-success);
 }
 .badge .busy {
-  background-color: var(--color-danger);
+  background-color: var(--color-error);
 }
 .badge .offline {
   background-color: #70707c;
@@ -24,7 +24,7 @@
   background-color: var(--color-warning);
 }
 .badge .sharing {
-  background-color: var(--color-danger);
+  background-color: var(--color-error);
 }
 .badge .sharing::after {
   content: "";
@@ -62,17 +62,18 @@
 .pill {
   font-size: 75%;
   font-weight: 700;
+  line-height: 1.4em;
   padding: 0.1rem 0.5rem;
   margin: 0 0.1rem;
   background-color: var(--color-primary);
   color: var(--color-light);
-  border-radius: 5rem;
+  border-radius: 5px;
 }
 .pill-secondary {
   background-color: var(--color-secondary);
 }
 .pill-danger {
-  background-color: var(--color-danger);
+  background-color: var(--color-error);
 }
 .pill-warning {
   background-color: var(--color-warning);
