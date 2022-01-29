@@ -1,0 +1,19 @@
+.round-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.sq-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.resp-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
