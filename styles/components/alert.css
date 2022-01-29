@@ -1,0 +1,39 @@
+.alert {
+  background-color: var(--color-secondary);
+  color: var(--color-light);
+  padding: 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+}
+.alert-content {
+  margin-left: 1rem;
+}
+.alert-title {
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1rem;
+}
+.alert-subtext {
+  margin-top: 0.5rem;
+  color: #ffffffb2;
+  font-size: 0.875rem;
+  line-height: 1rem;
+}
+.primary {
+  background-color: var(--color-secondary);
+}
+.success {
+  background-color: var(--color-success);
+}
+.warning {
+  background-color: var(--color-warning);
+}
+.error {
+  background-color: var(--color-error);
+}
+
+.alerts-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}

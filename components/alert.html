@@ -61,10 +61,10 @@
                 </div>
                 <ul class="list-subtopic">
                     <li>
-                        <a class="active" href="/components/avatar.html">Avatar</a>
+                        <a href="/components/avatar.html">Avatar</a>
                     </li>
                     <li>
-                        <a href="/components/alert.html">Alert</a>
+                        <a class="active" href="#">Alert</a>
                     </li>
                     <li>
                         <a href="/components/badge.html">Badge</a>
@@ -104,66 +104,82 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h1 class="title">Avatar</h1>
-            <div class="subtitle">An avatar is a thumbnail representation of an entity, such as a user or an organisation. </div>
+            <h1 class="title">Alert</h1>
+            <div class="subtitle">In-line alerts display a non-modal message associated with objects in a view.</div>
 
-            <h1 class="title">Profile Avatar</h1>
-            <div class="subtitle">Profile avatar can be created using “avatar” class in image tag.</div>
 
             <div class="output-cont">
-                <img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" />
-                <img class="avatar" src="../assets/avatars/avatar2.jpg" alt="avatar" />
-                <img class="avatar" src="../assets/avatars/avatar3.jpg" alt="avatar" />
+                <div class="alerts-cont">
+                    <div class="alert primary">
+                        <div class="alert-icon">
+                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
+                        </div>
+                        <div class="alert-content">
+                            <div class="alert-title">Your success message - make it short</div>
+                            <div class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</div>
+                        </div>
+                    </div>
+                    <div class="alert success">
+                        <div class="alert-icon">
+                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
+                        </div>
+                        <div class="alert-content">
+                            <div class="alert-title">Your success message - make it short</div>
+                            <div class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</div>
+                        </div>
+                    </div>
+                     <div class="alert warning">
+                        <div class="alert-icon">
+                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
+                        </div>
+                        <div class="alert-content">
+                            <div class="alert-title">Your success message - make it short</div>
+                            <div class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</div>
+                        </div>
+                    </div>
+                     <div class="alert error">
+                        <div class="alert-icon">
+                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
+                        </div>
+                        <div class="alert-content">
+                            <div class="alert-title">Your success message - make it short</div>
+                            <div class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
-            <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'avatar' class name -->
+                        <-- Using the 'alert' class name -->
                         
-                        
-                        &lt;img class="avatar" src="./assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                        <-- Using the 'primary' class name for showing primary alert -->
+                        <-- Use other classes like 'success', 'warning' and 'error' -->
+
+                        &lt;div class="alert primary"&gt;
+                            &lt;div class="alert-icon"&gt;
+                                &lt;img src="../assets/alert-icon.svg" alt="alert-icon" /&gt;
+                            &lt;/div&gt;
+                            &lt;div class="alert-content"&gt;
+                                &lt;div class="alert-title">
+                                    Your success message - make it short
+                                &lt;/div&gt;
+                                &lt;div class="alert-subtext">
+                                    Describe the event and give further instructions if needed, including links to other pages
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
                     </code>
                 </pre>
             </div>   
-            <!-- Code Snippet Section End -->
 
-            <h1 class="title">Avatar Sizes</h1>
-            <div class="subtitle">Profile avatar can be created using “avatar” class in image tag. For creating avatas for different sizes we can use classes like 'xs','sm','md','lg','xl'</div>
-            <div class="output-cont">
-                <img class="avatar avatar-xs" src="../assets/avatars/avatar1.jpg" alt="avatar" />
-                <img class="avatar avatar-sm" src="../assets/avatars/avatar2.jpg" alt="avatar" />
-                <img class="avatar avatar-md" src="../assets/avatars/avatar3.jpg" alt="avatar" />
-                <img class="avatar avatar-lg" src="../assets/avatars/avatar4.jpg" alt="avatar" />
-                <img class="avatar avatar-xl" src="../assets/avatars/avatar5.jpg" alt="avatar" />
-            </div>
-
-            <!-- Code Snippet Section Start -->
-            <div>
-                <pre>
-                    <code class="html">
-                        <-- Using the xs | sm | md | lg | xl class names for different sizes -->
-                      
-
-                        &lt;img class="avatar avatar-xs" src="./assets/avatars/avatar1.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-sm" src="./assets/avatars/avatar2.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-md" src="./assets/avatars/avatar3.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-lg" src="./assets/avatars/avatar4.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-xl" src="./assets/avatars/avatar5.jpg" alt="avatar" /&gt;
-                    </code>
-                </pre>
-            </div>
             <!-- Code Snippet Section End -->
 
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="#"><i class="bi bi-caret-left-fill left-icon"></i>Typography</a>
-                <a class="navigation-next" href="/components/alert.html" >Alert<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/avatar.html"><i class="bi bi-caret-left-fill left-icon"></i>Avatar</a>
+                <a class="navigation-next" href="/components/badge.html" >Badge<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>

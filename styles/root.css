@@ -4,6 +4,8 @@
 @import url(./components/hero.css);
 @import url(./components/sidebar.css);
 @import url(./components/badge.css);
+@import url(./components/alert.css);
+@import url(./components/button.css);
 
 /* || Utilities */
 @import url(./utilities/anchor.css);
@@ -11,14 +13,24 @@
 
 :root {
   --color-primary: #ff3b78;
-  --color-primary-hover: #ff3b781a;
+  --color-primary-hover: #e01e5a;
 
   --color-secondary: #325bfe;
+  --color-secondary-hover: #0738fa;
+
+  --color-link: #ff3b781a;
 
   --color-dark: #1e1e1e;
   --color-light: #ffffff;
 
   --color-success: #00b377;
   --color-warning: #feab00;
-  --color-danger: #fa3246;
+  --color-error: #fa3246;
+
+  --color-gray-100: #c6cbd9;
+  --color-gray-200: #9a9aaf;
+  --color-gray-300: #7e7e8f;
+  --color-gray-400: #656575;
+  --color-gray-500: #535362;
+  --color-gray-600: #2e2e3a;
 }

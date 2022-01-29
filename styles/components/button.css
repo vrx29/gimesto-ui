@@ -1,0 +1,108 @@
+/* || Default Button CSS */
+.btn {
+  min-width: 120px;
+  padding: 0.8rem 1rem;
+  font-weight: 600;
+  color: var(--color-light);
+  border-radius: 5px;
+  border: transparent;
+  cursor: pointer;
+  background-color: var(--color-gray-100);
+}
+.btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+/* || Different Button Colors */
+.btn-primary {
+  background-color: var(--color-primary);
+}
+.btn-secondary {
+  background-color: var(--color-secondary);
+}
+.btn-success {
+  background-color: var(--color-success);
+}
+.btn-warning {
+  background-color: var(--color-warning);
+}
+.btn-error {
+  background-color: var(--color-error);
+}
+
+/* || Outline Button CSS */
+.outline {
+  background-color: transparent;
+  color: var(--color-dark);
+  border: 1px solid var(--color-gray-100);
+}
+.outline-primary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+.outline-secondary {
+  background-color: transparent;
+  color: var(--color-secondary);
+  border: 1px solid var(--color-secondary);
+}
+.outline-warning {
+  background-color: transparent;
+  color: var(--color-warning);
+  border: 1px solid var(--color-warning);
+}
+.outline-success {
+  background-color: transparent;
+  color: var(--color-success);
+  border: 1px solid var(--color-success);
+}
+.outline-error {
+  background-color: transparent;
+  color: var(--color-error);
+  border: 1px solid var(--color-error);
+}
+
+/* || Icons Button CSS */
+.btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--color-primary);
+}
+.btn-icon:hover {
+  background-color: var(--color-primary-hover);
+}
+.btn-icon svg {
+  margin-right: 1rem;
+}
+
+/* || Link Button CSS */
+.btn-link {
+  background-color: transparent;
+  color: var(--color-primary);
+}
+.btn-link:hover {
+  background-color: var(--color-link);
+}
+
+/* || Floating Button CSS */
+.btn-floating {
+  min-width: 0;
+  min-width: 40px;
+  min-height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-primary);
+  box-shadow: 4px 4px 8px rgba(255, 59, 120, 0.2);
+}
+.btn-floating:hover {
+  background-color: var(--color-primary-hover);
+}
+.btn i {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
