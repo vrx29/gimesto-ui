@@ -23,10 +23,9 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  row-gap: 1rem;
-  column-gap: 0.4rem;
-  border: 1px solid #e5e5e5;
+  gap: 1rem;
   border-radius: 5px;
+  background: #f5f5ff;
 }
 
 pre {

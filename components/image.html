@@ -61,7 +61,7 @@
                 </div>
                 <ul class="list-subtopic">
                     <li>
-                        <a class="active" href="/components/avatar.html">Avatar</a>
+                        <a href="/components/avatar.html">Avatar</a>
                     </li>
                     <li>
                         <a href="/components/alert.html">Alert</a>
@@ -76,7 +76,7 @@
                         <a href="/components/card.html">Card</a>
                     </li>
                     <li>
-                        <a href="/components/image.html">Image</a>
+                        <a class="active" href="#">Image</a>
                     </li>
                     <li>
                         <a href="#">Input</a>
@@ -104,66 +104,69 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h1 class="title">Avatar</h1>
-            <div class="subtitle">An avatar is a thumbnail representation of an entity, such as a user or an organisation. </div>
+            <h2 class="title">Image</h2>
+            <div class="subtitle">An image is a picture or visual representation of a person or thing.</div>
 
-            <h1 class="title">Profile Avatar</h1>
-            <div class="subtitle">Profile avatar can be created using “avatar” class in image tag.</div>
-
+            <h2 class="title">Round Image</h2>
+            <div class="subtitle">Round images are circular in shape genrally used to display profile pictures etc. Default dimension for these images will be 150x150.</div>
             <div class="output-cont">
-                <img class="avatar" src="../assets/avatars/avatar1.jpg" alt="avatar" />
-                <img class="avatar" src="../assets/avatars/avatar2.jpg" alt="avatar" />
-                <img class="avatar" src="../assets/avatars/avatar3.jpg" alt="avatar" />
+                <img class="round-img" src="../assets/image1.jpeg" alt="round-image" />
+                <img class="round-img" src="../assets/image2.jpeg" alt="round-image" />
             </div>
 
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'avatar' class name -->
+                        <-- Using the 'round-img' class name -->
                         
-                        
-                        &lt;img class="avatar" src="./assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                        &lt;img class="round-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
 
-            <h1 class="title">Avatar Sizes</h1>
-            <div class="subtitle">Profile avatar can be created using “avatar” class in image tag. For creating avatas for different sizes we can use classes like 'xs','sm','md','lg','xl'</div>
+            <h2 class="title">Square Image</h2>
+            <div class="subtitle">Square images are square shape genrally used to display product pictures etc. Default dimension for these images will be 150x150.</div>
             <div class="output-cont">
-                <img class="avatar avatar-xs" src="../assets/avatars/avatar1.jpg" alt="avatar" />
-                <img class="avatar avatar-sm" src="../assets/avatars/avatar2.jpg" alt="avatar" />
-                <img class="avatar avatar-md" src="../assets/avatars/avatar3.jpg" alt="avatar" />
-                <img class="avatar avatar-lg" src="../assets/avatars/avatar4.jpg" alt="avatar" />
-                <img class="avatar avatar-xl" src="../assets/avatars/avatar5.jpg" alt="avatar" />
+                <img class="sq-img" src="../assets/image3.jpeg" alt="square-image" />
+                <img class="sq-img" src="../assets/image6.jpeg" alt="square-image" />
             </div>
 
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
-                    <code class="html">
-                        <-- Using the xs | sm | md | lg | xl class names for different sizes -->
-                      
-
-                        &lt;img class="avatar avatar-xs" src="./assets/avatars/avatar1.jpg" alt="avatar" /&gt;
+                    <code class="html hljs xml">
+                        <-- Using the 'sq-img' class name -->
                         
-                        &lt;img class="avatar avatar-sm" src="./assets/avatars/avatar2.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-md" src="./assets/avatars/avatar3.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-lg" src="./assets/avatars/avatar4.jpg" alt="avatar" /&gt;
-                        
-                        &lt;img class="avatar avatar-xl" src="./assets/avatars/avatar5.jpg" alt="avatar" /&gt;
+                        &lt;img class="sq-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
                     </code>
                 </pre>
-            </div>
+            </div> 
             <!-- Code Snippet Section End -->
 
+            <h2 class="title">Responsive Image</h2>
+            <div class="subtitle">Square images are square shape genrally used to display product pictures etc. Default dimension for these images will be 150x150.</div>
+            <div class="output-cont">
+                <img class="resp-img" src="../assets/image4.jpeg" alt="responsive-image" />
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'sq-img' class name -->
+                        
+                        &lt;img class="resp-img" src="../assets/image1.jpeg" alt="responsive-image" /&gt;
+                    </code>
+                </pre>
+            </div> 
+            <!-- Code Snippet Section End -->
+           
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="#"><i class="bi bi-caret-left-fill left-icon"></i>Typography</a>
-                <a class="navigation-next" href="/components/alert.html" >Alert<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/card.html"><i class="bi bi-caret-left-fill left-icon"></i>Card</a>
+                <a class="navigation-next" href="/components/input.html" >Input<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>

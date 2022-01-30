@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gimesto</title>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="../gimesto.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Header Section Start -->
+    <header class="header">
+        <div class="logo">
+            <a href="../index.html">Gimesto</a>  
+        </div>
+            <ul class="header-nav">
+                <li>
+                    <a href="https://github.com/vrx29/">
+                        <i class="bi bi-github github-icon"></i>
+                         github
+                    </a>
+                </li>
+                <li>
+                    <button class="menu">
+                        <i id="menu-icon" class="bi bi-list"></i>
+                    </button>
+                </li>
+            </ul>  
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Main Section Start -->
+    <main class="doc-container">
+        <!-- Sidebar Section Start -->
+        <nav class="sidebar">
+            <!-- Getting Started Navigation Start -->
+            <div>
+                <div class="list-topic">
+                    <a  href="#">GETTING STARTED</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li >
+                        <a href="#">Installation</a>
+                    </li>
+                    <li>
+                        <a href="#">Colors</a>
+                    </li>
+                    <li>
+                        <a href="#">Typography</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Getting Started Navigation End -->
+
+            <!-- Components Navigation Start -->
+           <div>
+                <div class="list-topic">
+                    <a class="" href="#">COMPONENTS</a>
+                </div>
+                <ul class="list-subtopic">
+                    <li>
+                        <a href="/components/avatar.html">Avatar</a>
+                    </li>
+                    <li>
+                        <a href="/components/alert.html">Alert</a>
+                    </li>
+                    <li>
+                        <a href="/components/badge.html">Badge</a>
+                    </li>
+                    <li>
+                        <a href="/components/button.html">Button</a>
+                    </li>
+                    <li>
+                        <a class="active" href="#">Card</a>
+                    </li>
+                    <li>
+                        <a href="/components/image.html">Image</a>
+                    </li>
+                    <li>
+                        <a href="#">Input</a>
+                    </li>
+                    <li>
+                        <a href="#">List</a>
+                    </li>
+                    <li>
+                        <a href="#">Navigation</a>
+                    </li>
+                    <li>
+                        <a href="#">Modal</a>
+                    </li>
+                    <li>
+                        <a href="#">Rating</a>
+                    </li>
+                    <li>
+                        <a href="#">Toast</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Components Navigation End -->
+        </nav>
+        <!-- Sidebar Section End -->
+
+        <!-- Main Content Section Start -->
+        <section class="doc-content">
+            <h2 class="title">Card</h2>
+            <div class="subtitle">Cards are the elements used to display some information related to a particular thing. Cards can also have some actions to perform</div>
+
+            <h2 class="title">Simple Text Card</h2>
+            <div class="subtitle">Simple card is a element which display information regarding a particular topic. It can have 'title' as well as 'description' for a topic.</div>
+            <div class="output-cont">
+                <div class="card">
+                    <h3 class="card-title">Call of Duty : Black Ops </h3>
+                    <p class="card-description">Black Ops Cold War will drop fans into the depths of the Cold War's volatile geopolitical battle of the early 1980s. Nothing is ever as it seems in a gripping single-player Campaign.</p>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'card' class name -->
+                        
+                        <-- Use other substitute classes like 'card-title' for title-->
+
+                         &lt;div class="card"&gt;
+                            &lt;h3 class="card-title">Call of Duty : Black Ops&lt;/h3&gt;
+                            &lt;p class="card-description"&gt;description...&lt;/p&gt;
+                        &lt;/div>
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h2 class="title">Vertical Card</h2>
+            <div class="subtitle">Vertical cards generally used in ecommerce apps for displaying product related data. These cards also contains badges on them to display some important infomation that can stop users at this product.</div>
+
+            <div class="output-cont">
+                <div class="card card-ecom">
+                    <div class="card-img-cont">
+                        <img class="card-img" src="../assets/play.png" alt="ps5" />
+                    </div>
+                    <div class="card-badge">SALE</div>
+                    <div class="card-body">
+                        <div class="card-header">
+                        <h6 class="card-title">SONY</h6>
+                        <p class="card-desc">DualSense Gamepad</p>
+                        <div class="card-price">
+                            <span class="price-new">Rs.4599</span>
+                            <span class="price-old">Rs.5999</span>
+                            <span class="discount">(24%)</span>
+                        </div>
+                        </div>
+                        <div class="card-footer">
+                        <button class="btn btn-primary">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'card card-ecom' class names -->
+                        
+
+                        &lt;div class="card card-ecom"&gt;
+                            &lt;div class="card-img-cont"&gt;
+                                &lt;img class="card-img" src="../assets/play.png" alt="ps5" /&gt;
+                            &lt;/div&gt;
+                            &lt;div class="card-badge">SALE&lt;/div&gt;
+                            &lt;div class="card-body"&gt;
+                                &lt;div class="card-header"&gt;
+                                &lt;h6 class="card-title"&gt;SONY&lt;/h6&gt;
+                                &lt;p class="card-desc"&gt;DualSense Gamepad&lt;/p&gt;
+                                &lt;div class="card-price"&gt;
+                                    &lt;span class="price-new"&gt;Rs.4599&lt;/span&gt;
+                                    &lt;span class="price-old"&gt;Rs.5999&lt;/span&gt;
+                                    &lt;span class="discount"&gt;(24%)&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="card-footer"&gt;
+                                &lt;button class="btn btn-primary"&gt;ADD TO CART&lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h2 class="title">Horizontal Card</h2>
+            <div class="subtitle">Just like vertical card it is a Horizontal version of product components. We can display products in both ways horizontally as well as vertically.</div>
+            <div class="output-cont">
+                <div class="card card-ecom card-horiz">
+                    <div class="card-img-cont">
+                        <img class="card-img" src="../assets/play.png" alt="ps5" />
+                    </div>
+                    <div class="card-badge">SALE</div>
+                    <div class="card-body">
+                        <div class="card-header">
+                        <h6 class="card-title">SONY</h6>
+                        <p class="card-desc">DualSense Gamepad</p>
+                        <div class="card-price">
+                            <span class="price-new">Rs.4599</span>
+                            <span class="price-old">Rs.5999</span>
+                            <span class="discount">(24%)</span>
+                        </div>
+                        </div>
+                        <div class="card-footer">
+                        <button class="btn btn-primary">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'card card-ecom' class names -->
+                        <-- Using the 'card-horiz' class for horizontally aligning -->
+                        
+
+                        &lt;div class="card card-ecom card-horiz"&gt;
+                            &lt;div class="card-img-cont"&gt;
+                                &lt;img class="card-img" src="../assets/play.png" alt="ps5" /&gt;
+                            &lt;/div&gt;
+                            &lt;div class="card-badge">SALE&lt;/div&gt;
+                            &lt;div class="card-body"&gt;
+                                &lt;div class="card-header"&gt;
+                                &lt;h6 class="card-title"&gt;SONY&lt;/h6&gt;
+                                &lt;p class="card-desc"&gt;DualSense Gamepad&lt;/p&gt;
+                                &lt;div class="card-price"&gt;
+                                    &lt;span class="price-new"&gt;Rs.4599&lt;/span&gt;
+                                    &lt;span class="price-old"&gt;Rs.5999&lt;/span&gt;
+                                    &lt;span class="discount"&gt;(24%)&lt;/span&gt;
+                                &lt;/div&gt;
+                                &lt;/div&gt;
+                                &lt;div class="card-footer"&gt;
+                                &lt;button class="btn btn-primary"&gt;ADD TO CART&lt;/button&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h2 class="title">Dismiss Card</h2>
+            <div class="subtitle">Few components are just there on the UI to display some information once their work is done user can close these cards using dismiss button.</div>
+
+            <div class="output-cont">
+                <div class="card card-dismiss">
+                    <div class="card-body"><h3>50% off on Gaming Headphones</h3></div>
+                    <div class="card-img-cont">
+                        <img class="card-img" src="../assets/headphones.svg" alt="ps5" />
+                    </div>
+                    <div class="card-close">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                        <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'card card-dismiss' class name -->
+                        
+
+                        &lt;div class="output-cont"&gt;
+                            &lt;div class="card card-dismiss"&gt;
+                                &lt;div class="card-body"&gt;
+                                    &lt;h3&gt;50% off on Gaming Headphones&lt;/h3&gt;
+                                &lt;/div&gt;
+                                &lt;div class="card-img-cont"&gt;
+                                    &lt;img class="card-img" src="../assets/headphones.svg" alt="ps5" /&gt;
+                                &lt;/div&gt;
+                                &lt;div class="card-close"&gt;
+                                    &lt;svg xmlns="http://www.w3.org/2000/svg"&gt;&lt;/svg&gt;
+                                &lt;/div&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h2 class="title">Text Overlay Card</h2>
+            <div class="subtitle">Text overlay cards are genrally those which has text on top of them in most of the cases the card just contains a background image and text on top of it.</div>
+
+            <div class="output-cont">
+                <div class="card card-overlay">
+                    <img class="card-img" src="../assets/overlay.jpeg" alt="ps5" />
+                    <div class="card-body">
+                        <h2 class="card-overlay-text">New Gaming accessories available on sale.</h2>
+                        <button class="btn btn-secondary">SHOP NOW</button>
+                    </div>
+                </div>
+
+                <div class="card card-overlay">
+                    <img class="card-img" src="../assets/console.jpeg" alt="ps5" />
+                    <div class="card-body">
+                        <h2 class="card-overlay-text">
+                            Gaming consoles are back in stock. HURRY UP!!
+                        </h2>
+                        <button class="btn btn-secondary">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        <-- Using the 'card card-overlay' class name -->
+                        
+
+                        &lt;div class="card card-overlay"&gt;
+                            &lt;img class="card-img" src="../assets/overlay.jpeg" alt="ps5" /&gt;
+                            &lt;div class="card-body"&gt;
+                                &lt;h2 class="card-overlay-text">New Gaming accessories available on sale.&lt;/h2&gt;
+                                &lt;button class="btn btn-secondary"&gt;SHOP NOW&lt;/button&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <!-- Page Navigation Section Start -->
+           <div class="page-navigation">
+                <a class="navigation-prev" href="/components/button.html"><i class="bi bi-caret-left-fill left-icon"></i>Button</a>
+                <a class="navigation-next" href="/components/image.html" >Image<i class="bi bi-caret-right-fill right-icon"></i></a>
+            </div>
+            <!-- Page Navigation Section End -->
+        </section>
+        <!-- Main Content Section End -->
+    </main>
+    <!-- Main Section End -->
+
+    <!-- Scripts Used in this project -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <script src="../scripts/header.js"></script>
+</html>
