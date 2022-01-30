@@ -1,13 +1,13 @@
 .round-img {
-  width: 150px;
-  height: 150px;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   object-fit: cover;
 }
 
 .sq-img {
-  width: 150px;
-  height: 150px;
+  width: 10rem;
+  height: 10rem;
   object-fit: cover;
   border-radius: 0.5rem;
 }

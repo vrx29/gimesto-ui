@@ -48,7 +48,7 @@ code {
   border: none;
   background-color: transparent;
   cursor: pointer;
-  color: var(--color-primary);
+  color: var(--COLOR-DARK);
 }
 .page-navigation i {
   margin-bottom: 0.4rem;
@@ -71,7 +71,7 @@ code {
   margin-left: 0.5rem;
 }
 .page-navigation a:hover {
-  color: var(--color-primary);
-  background-color: var(--color-link);
+  color: var(--COLOR-PRIMARY);
+  background-color: var(--COLOR-LINK);
   border-radius: 5px;
 }

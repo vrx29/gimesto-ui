@@ -20,7 +20,7 @@
   align-items: flex-start;
 }
 .hero-left .subtitle {
-  color: #5b5b65;
+  color: var(--COLOR-GRAY-300);
 }
 .hero-right {
   display: flex;

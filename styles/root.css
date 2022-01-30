@@ -15,25 +15,25 @@
 @import url(./utilities/content.css);
 
 :root {
-  --color-primary: #ff3b78;
-  --color-primary-hover: #e01e5a;
+  --COLOR-PRIMARY: #ff3b78;
+  --COLOR-PRIMARY-HOVER: #e01e5a;
 
-  --color-secondary: #325bfe;
-  --color-secondary-hover: #0738fa;
+  --COLOR-SECONDARY: #325bfe;
+  --COLOR-SECONDARY-HOVER: #0738fa;
 
-  --color-link: #ff3b781a;
+  --COLOR-LINK: #ff3b781a;
 
-  --color-dark: #1e1e1e;
-  --color-light: #ffffff;
+  --COLOR-DARK: #1e1e1e;
+  --COLOR-LIGHT: #ffffff;
 
-  --color-success: #00b377;
-  --color-warning: #feab00;
-  --color-error: #fa3246;
+  --COLOR-SUCCESS: #00b377;
+  --COLOR-WARNING: #feab00;
+  --COLOR-ERROR: #fa3246;
 
-  --color-gray-100: #c6cbd9;
-  --color-gray-200: #9a9aaf;
-  --color-gray-300: #7e7e8f;
-  --color-gray-400: #656575;
-  --color-gray-500: #535362;
-  --color-gray-600: #2e2e3a;
+  --COLOR-GRAY-100: #c6cbd9;
+  --COLOR-GRAY-200: #9a9aaf;
+  --COLOR-GRAY-300: #7e7e8f;
+  --COLOR-GRAY-400: #656575;
+  --COLOR-GRAY-500: #535362;
+  --COLOR-GRAY-600: #2e2e3a;
 }
