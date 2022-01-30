@@ -8,23 +8,23 @@
   bottom: 8px;
   right: 8px;
   border-radius: 50%;
-  background-color: var(--color-primary);
-  border: 2px solid var(--color-light);
+  background-color: var(--COLOR-PRIMARY);
+  border: 2px solid var(--COLOR-LIGHT);
 }
 .badge .online {
-  background-color: var(--color-success);
+  background-color: var(--COLOR-SUCCESS);
 }
 .badge .busy {
-  background-color: var(--color-error);
+  background-color: var(--COLOR-ERROR);
 }
 .badge .offline {
-  background-color: #70707c;
+  background-color: var(--COLOR-GRAY-400);
 }
 .badge .away {
-  background-color: var(--color-warning);
+  background-color: var(--COLOR-WARNING);
 }
 .badge .sharing {
-  background-color: var(--color-error);
+  background-color: var(--COLOR-ERROR);
 }
 .badge .sharing::after {
   content: "";
@@ -36,7 +36,7 @@
   margin-top: -1px;
   margin-left: -3px;
   border-radius: 10px;
-  background-color: var(--color-light);
+  background-color: var(--COLOR-LIGHT);
 }
 
 /* Icon badge Styling */
@@ -49,13 +49,13 @@
   justify-content: center;
   align-items: center;
   font-size: 0.6rem;
-  height: 16px;
-  width: 16px;
+  height: 18px;
+  width: 18px;
   border: none;
   top: 1px;
   right: 8px;
   border-radius: 50%;
-  color: var(--color-light);
+  color: var(--COLOR-LIGHT);
 }
 
 /* pill badge Styling */
@@ -65,19 +65,19 @@
   line-height: 1.4em;
   padding: 0.1rem 0.5rem;
   margin: 0 0.1rem;
-  background-color: var(--color-primary);
-  color: var(--color-light);
+  background-color: var(--COLOR-PRIMARY);
+  color: var(--COLOR-LIGHT);
   border-radius: 5px;
 }
 .pill-secondary {
-  background-color: var(--color-secondary);
+  background-color: var(--COLOR-SECONDARY);
 }
 .pill-danger {
-  background-color: var(--color-error);
+  background-color: var(--COLOR-ERROR);
 }
 .pill-warning {
-  background-color: var(--color-warning);
+  background-color: var(--COLOR-WARNING);
 }
 .pill-success {
-  background-color: var(--color-success);
+  background-color: var(--COLOR-SUCCESS);
 }

@@ -76,10 +76,10 @@
                         <a href="/components/card.html">Card</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Image</a>
+                        <a href="/components/image.html">Image</a>
                     </li>
                     <li>
-                        <a href="/components/input.html">Input</a>
+                        <a class="active" href="#">Input</a>
                     </li>
                     <li>
                         <a href="#">List</a>
@@ -104,33 +104,55 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h2 class="title">Image</h2>
-            <div class="subtitle">An image is a picture or visual representation of a person or thing.</div>
+            <h2 class="title">Input</h2>
+            <div class="subtitle">Inputs are really important part of any website whenever user interacts if we want to get some data from user, we can use input elements.</div>
 
-            <h2 class="title">Round Image</h2>
-            <div class="subtitle">Round images are circular in shape genrally used to display profile pictures etc. Default dimension for these images will be 150x150.</div>
+            <h2 class="title">Label Input</h2>
+            <div class="subtitle">Label inputs have label defined on top of them which displays what type of data is to be inserted into that input field. These input fields can be used to display error messages if a user enters some wrong data or badly formatted data.</div>
             <div class="output-cont">
-                <img class="round-img" src="../assets/image1.jpeg" alt="round-image" />
-                <img class="round-img" src="../assets/image2.jpeg" alt="round-image" />
+                <div class="input-grp">
+                    <label>Username</label>
+                    <input class="input" type="text" placeholder="Username">
+                </div>
+                <div class="input-grp">
+                    <label>Email address</label>
+                    <input class="input input-error" type="email" placeholder="Email address">
+                    <div class="error-msg">Please enter correct email.</div>
+                </div>
+                <div class="input-grp">
+                    <label>Password</label>
+                    <input class="input input-warning" type="password" placeholder="Password">
+                    <div class="warning-msg">Please enter a strong password.</div>
+                </div>
+                <div class="input-grp">
+                    <label>Confirm Password</label>
+                    <input class="input input-success" type="password" placeholder="Password">
+                    <div class="success-msg">Password matched.</div>
+                </div>
             </div>
 
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'round-img' class name -->
+                        <-- Using the 'input-grp' class as outside container -->
+                        <-- Using the 'input' class for normal input field without validation -->
+                        <-- Using the 'input-error' and 'error-msg' class for error validation -->
                         
-                        &lt;img class="round-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
+                        &lt;div class="input-grp"&gt;
+                            &lt;label&gt;Email address&lt;/label&gt;
+                            &lt;input class="input input-error" type="email" placeholder="Email address"&gt;
+                            &lt;div class="error-msg"&gt;Please enter correct email.&lt;/div&gt;
+                        &lt;/div>
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
 
-            <h2 class="title">Square Image</h2>
-            <div class="subtitle">Square images are square shape genrally used to display product pictures etc. Default dimension for these images will be 150x150.</div>
+            <h2 class="title">Textarea Input</h2>
+            <div class="subtitle">Textarea input is used to get large chunks of data. Sometimes user needs to provide a large data in that case it is used.</div>
             <div class="output-cont">
-                <img class="sq-img" src="../assets/image3.jpeg" alt="square-image" />
-                <img class="sq-img" src="../assets/image6.jpeg" alt="square-image" />
+                <textarea class="textarea" placeholder="Please provide your feedback."></textarea>
             </div>
 
             <!-- Code Snippet Section Start -->
@@ -139,25 +161,39 @@
                     <code class="html hljs xml">
                         <-- Using the 'sq-img' class name -->
                         
-                        &lt;img class="sq-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
+                        &lt;textarea class="textarea" placeholder="Please provide your feedback."&gt;&lt;/textarea&gt;
                     </code>
                 </pre>
             </div> 
             <!-- Code Snippet Section End -->
 
-            <h2 class="title">Responsive Image</h2>
-            <div class="subtitle">Square images are square shape genrally used to display product pictures etc. Default dimension for these images will be 150x150.</div>
+            <h2 class="title">Radio Input</h2>
+            <div class="subtitle">Radio buttons provide user with multiple inputs and user can onlye one option from them.</div>
             <div class="output-cont">
-                <img class="resp-img" src="../assets/image4.jpeg" alt="responsive-image" />
+                    <label for="yes" class="label-radio">
+                        <input id="yes" name="verify" type="radio" class="input-radio" checked />
+                        <div class="btn-radio"></div>
+                        Yes
+                    </label>
+                    <label for="no" class="label-radio">
+                        <input id="no" name="verify" type="radio" class="input-radio" />
+                        <div class="btn-radio"></div>
+                        No
+                    </label>
             </div>
 
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'resp-img' class name -->
+                        <-- Using the 'label-radio' class for label and 'input-radio' for input tag -->
+                        <-- Using the 'btn-radio' class on div for creating radio button -->
                         
-                        &lt;img class="resp-img" src="../assets/image1.jpeg" alt="responsive-image" /&gt;
+                        &lt;label for="yes" class="label-radio"&gt;
+                            &lt;input id="yes" name="verify" type="radio" class="input-radio" checked /&gt;
+                            &lt;div class="btn-radio"&gt;&lt;/div&gt;
+                            Yes
+                        &lt;/label&gt;
                     </code>
                 </pre>
             </div> 
@@ -165,8 +201,8 @@
            
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/card.html"><i class="bi bi-caret-left-fill left-icon"></i>Card</a>
-                <a class="navigation-next" href="/components/input.html" >Input<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/image.html"><i class="bi bi-caret-left-fill left-icon"></i>Image</a>
+                <!-- <a class="navigation-next" href="/components/input.html" >Input<i class="bi bi-caret-right-fill right-icon"></i></a> -->
             </div>
             <!-- Page Navigation Section End -->
         </section>

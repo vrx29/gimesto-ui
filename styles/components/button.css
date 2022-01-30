@@ -3,11 +3,11 @@
   min-width: 120px;
   padding: 0.8rem 1rem;
   font-weight: 600;
-  color: var(--color-light);
+  color: var(--COLOR-LIGHT);
   border-radius: 5px;
   border: transparent;
   cursor: pointer;
-  background-color: var(--color-gray-100);
+  background-color: var(--COLOR-GRAY-100);
 }
 .btn:hover {
   transform: scale(1.1);
@@ -16,51 +16,51 @@
 
 /* || Different Button Colors */
 .btn-primary {
-  background-color: var(--color-primary);
+  background-color: var(--COLOR-PRIMARY);
 }
 .btn-secondary {
-  background-color: var(--color-secondary);
+  background-color: var(--COLOR-SECONDARY);
 }
 .btn-success {
-  background-color: var(--color-success);
+  background-color: var(--COLOR-SUCCESS);
 }
 .btn-warning {
-  background-color: var(--color-warning);
+  background-color: var(--COLOR-WARNING);
 }
 .btn-error {
-  background-color: var(--color-error);
+  background-color: var(--COLOR-ERROR);
 }
 
 /* || Outline Button CSS */
 .outline {
   background-color: transparent;
-  color: var(--color-dark);
-  border: 1px solid var(--color-gray-100);
+  color: var(--COLOR-DARK);
+  border: 1px solid var(--COLOR-GRAY-100);
 }
 .outline-primary {
   background-color: transparent;
-  color: var(--color-primary);
-  border: 1px solid var(--color-primary);
+  color: var(--COLOR-PRIMARY);
+  border: 1px solid var(--COLOR-PRIMARY);
 }
 .outline-secondary {
   background-color: transparent;
-  color: var(--color-secondary);
-  border: 1px solid var(--color-secondary);
+  color: var(--COLOR-SECONDARY);
+  border: 1px solid var(--COLOR-SECONDARY);
 }
 .outline-warning {
   background-color: transparent;
-  color: var(--color-warning);
-  border: 1px solid var(--color-warning);
+  color: var(--COLOR-WARNING);
+  border: 1px solid var(--COLOR-WARNING);
 }
 .outline-success {
   background-color: transparent;
-  color: var(--color-success);
-  border: 1px solid var(--color-success);
+  color: var(--COLOR-SUCCESS);
+  border: 1px solid var(--COLOR-SUCCESS);
 }
 .outline-error {
   background-color: transparent;
-  color: var(--color-error);
-  border: 1px solid var(--color-error);
+  color: var(--COLOR-ERROR);
+  border: 1px solid var(--COLOR-ERROR);
 }
 
 /* || Icons Button CSS */
@@ -68,10 +68,10 @@
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: var(--color-primary);
+  background-color: var(--COLOR-PRIMARY);
 }
 .btn-icon:hover {
-  background-color: var(--color-primary-hover);
+  background-color: var(--COLOR-PRIMARY-HOVER);
 }
 .btn-icon svg {
   margin-right: 1rem;
@@ -80,10 +80,10 @@
 /* || Link Button CSS */
 .btn-link {
   background-color: transparent;
-  color: var(--color-primary);
+  color: var(--COLOR-PRIMARY);
 }
 .btn-link:hover {
-  background-color: var(--color-link);
+  background-color: var(--COLOR-LINK);
 }
 
 /* || Floating Button CSS */
@@ -96,13 +96,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--color-primary);
+  background-color: var(--COLOR-PRIMARY);
   box-shadow: 4px 4px 8px rgba(255, 59, 120, 0.2);
 }
 .btn-floating:hover {
-  background-color: var(--color-primary-hover);
+  background-color: var(--COLOR-PRIMARY-HOVER);
 }
 .btn i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-size: 1.5rem;
   font-weight: 700;
 }

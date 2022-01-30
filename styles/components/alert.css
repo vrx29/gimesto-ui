@@ -1,6 +1,6 @@
 .alert {
-  background-color: var(--color-secondary);
-  color: var(--color-light);
+  background-color: var(--COLOR-SECONDARY);
+  color: var(--COLOR-LIGHT);
   padding: 1.5rem;
   border-radius: 1rem;
   display: flex;
@@ -20,16 +20,16 @@
   line-height: 1rem;
 }
 .primary {
-  background-color: var(--color-secondary);
+  background-color: var(--COLOR-SECONDARY);
 }
 .success {
-  background-color: var(--color-success);
+  background-color: var(--COLOR-SUCCESS);
 }
 .warning {
-  background-color: var(--color-warning);
+  background-color: var(--COLOR-WARNING);
 }
 .error {
-  background-color: var(--color-error);
+  background-color: var(--COLOR-ERROR);
 }
 
 .alerts-cont {

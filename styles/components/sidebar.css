@@ -28,14 +28,14 @@
 .list-subtopic a:hover {
   padding-left: 0.5rem;
   transition: all 0.3s ease-in-out;
-  color: #ff3b78;
+  color: var(--COLOR-PRIMARY);
   position: relative;
 }
 .active {
   padding-left: 0.5rem;
   width: 100%;
   font-weight: 600;
-  color: var(--color-primary);
+  color: var(--COLOR-PRIMARY);
   position: relative;
 }
 
