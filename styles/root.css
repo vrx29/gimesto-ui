@@ -9,19 +9,23 @@
 @import url(./components/card.css);
 @import url(./components/image.css);
 @import url(./components/input.css);
+@import url(./components/colors.css);
+@import url(./components/typography.css);
+@import url(./components/footer.css);
 
 /* || Utilities */
 @import url(./utilities/anchor.css);
 @import url(./utilities/content.css);
+@import url(./utilities/animation.css);
 
 :root {
-  --COLOR-PRIMARY: #ff3b78;
-  --COLOR-PRIMARY-HOVER: #e01e5a;
+  --COLOR-PRIMARY: #9142f5;
+  --COLOR-PRIMARY-HOVER: #8224f9;
 
   --COLOR-SECONDARY: #325bfe;
   --COLOR-SECONDARY-HOVER: #0738fa;
 
-  --COLOR-LINK: #ff3b781a;
+  --COLOR-LINK: #e2c9ff;
 
   --COLOR-DARK: #1e1e1e;
   --COLOR-LIGHT: #ffffff;

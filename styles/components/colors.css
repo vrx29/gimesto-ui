@@ -1,0 +1,39 @@
+.color-palette {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+.color-palette > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0.5rem;
+  height: 120px;
+  width: 120px;
+  color: var(--COLOR-LIGHT);
+}
+.color-palette .clr-white {
+  background-color: var(--COLOR-LIGHT);
+  color: var(--COLOR-DARK);
+}
+.clr-gray-1 {
+  background-color: var(--COLOR-GRAY-100);
+}
+.clr-gray-2 {
+  background-color: var(--COLOR-GRAY-200);
+}
+.clr-gray-3 {
+  background-color: var(--COLOR-GRAY-300);
+}
+.clr-gray-4 {
+  background-color: var(--COLOR-GRAY-400);
+}
+.clr-gray-5 {
+  background-color: var(--COLOR-GRAY-500);
+}
+.clr-gray-6 {
+  background-color: var(--COLOR-GRAY-600);
+}
+.clr-dark {
+  background-color: var(--COLOR-DARK);
+}

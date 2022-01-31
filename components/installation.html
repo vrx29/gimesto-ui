@@ -42,7 +42,7 @@
                 </div>
                 <ul class="list-subtopic">
                     <li >
-                        <a href="/components/installation.html">Installation</a>
+                        <a  class="active" href="#">Installation</a>
                     </li>
                     <li>
                         <a href="/components/colors.html">Colors</a>
@@ -76,7 +76,7 @@
                         <a href="/components/card.html">Card</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Image</a>
+                        <a href="/components/image.html">Image</a>
                     </li>
                     <li>
                         <a href="/components/input.html">Input</a>
@@ -89,69 +89,45 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h2 class="title">Image</h2>
-            <div class="subtitle">An image is a picture or visual representation of a person or thing.</div>
+            <h2 class="title">Installation</h2>
+            <div class="subtitle">In order to use Gimesto in your project, Copy the Link given below and paste it in the head tag of your html, it contains all the component styles shown on this website, which can be easily created using the defined classes.</div>
 
-            <h3 class="title">Round Image</h3>
-            <div class="subtitle">Round images are circular in shape genrally used to display profile pictures etc. Default dimension for these images will be 150x150.</div>
-            <div class="output-cont">
-                <img class="round-img" src="../assets/image1.jpeg" alt="round-image" />
-                <img class="round-img" src="../assets/image2.jpeg" alt="round-image" />
-            </div>
+            <h3 class="title">HTML Import</h3>
+            <div class="subtitle">This library can be imported using the cdn link in head tag of your html document.</div>
 
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'round-img' class name -->
+                        <-- Copy this code and paste inside head tag of your html file -->
                         
-                        &lt;img class="round-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
+                        &lt;link rel="stylesheet" type="text/css" href="https://gimesto.netlify.app/gimesto.css" /&gt;
+
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
 
-            <h3 class="title">Square Image</h3>
-            <div class="subtitle">Square images are square shape genrally used to display product pictures etc. Default dimension for these images will be 150x150.</div>
-            <div class="output-cont">
-                <img class="sq-img" src="../assets/image3.jpeg" alt="square-image" />
-                <img class="sq-img" src="../assets/image6.jpeg" alt="square-image" />
-            </div>
+            <h3 class="title">CSS Import</h3>
+            <div class="subtitle">This library can be installed by importing the css throught import tag inside your root css file.</div>
 
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
-                    <code class="html hljs xml">
-                        <-- Using the 'sq-img' class name -->
+                    <code class="css hljs xml">
+                        <-- Copy this code and paste inside root css file of your project -->
                         
-                        &lt;img class="sq-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
+                        @import url("https://gimesto.netlify.app/gimesto.css");
+
                     </code>
                 </pre>
-            </div> 
+            </div>   
             <!-- Code Snippet Section End -->
 
-            <h3 class="title">Responsive Image</h3>
-            <div class="subtitle">The images which changes their size when we resize the browser width.</div>
-            <div class="output-cont">
-                <img class="resp-img" src="../assets/image4.jpeg" alt="responsive-image" />
-            </div>
-
-            <!-- Code Snippet Section Start -->
-            <div>
-                <pre>
-                    <code class="html hljs xml">
-                        <-- Using the 'resp-img' class name -->
-                        
-                        &lt;img class="resp-img" src="../assets/image1.jpeg" alt="responsive-image" /&gt;
-                    </code>
-                </pre>
-            </div> 
-            <!-- Code Snippet Section End -->
-           
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/card.html"><i class="bi bi-caret-left-fill left-icon"></i>Card</a>
-                <a class="navigation-next" href="/components/input.html" >Input<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <!-- <a class="navigation-prev" href="/components/avatar.html"><i class="bi bi-caret-left-fill left-icon"></i>Avatar</a> -->
+                <a class="navigation-next" href="/components/colors.html">Colors<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>
