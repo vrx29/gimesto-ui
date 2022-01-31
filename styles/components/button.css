@@ -97,7 +97,7 @@
   align-items: center;
   justify-content: center;
   background-color: var(--COLOR-PRIMARY);
-  box-shadow: 4px 4px 8px rgba(255, 59, 120, 0.2);
+  box-shadow: 1px 1px 4px 3px rgba(162, 89, 255, 0.43);
 }
 .btn-floating:hover {
   background-color: var(--COLOR-PRIMARY-HOVER);

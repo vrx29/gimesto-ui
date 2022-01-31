@@ -49,7 +49,7 @@
                         <a href="/components/colors.html">Colors</a>
                     </li>
                     <li>
-                        <a href="/components/typography.html">Typography</a>
+                        <a class="active" href="#">Typography</a>
                     </li>
                 </ul>
             </div>
@@ -77,7 +77,7 @@
                         <a href="/components/card.html">Card</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Image</a>
+                        <a href="/components/image.html">Image</a>
                     </li>
                     <li>
                         <a href="/components/input.html">Input</a>
@@ -90,69 +90,41 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h2 class="title">Image</h2>
-            <div class="subtitle">An image is a picture or visual representation of a person or thing.</div>
+            <h2 class="title">Typography</h2>
+            <div class="subtitle">Typography is the art and technique of arranging letters and characters known as type. It also refers to different elements of typography including the size of the letters, line length and the spacing on a line or the entire page.</div>
 
-            <h3 class="title">Round Image</h3>
-            <div class="subtitle">Round images are circular in shape genrally used to display profile pictures etc. Default dimension for these images will be 150x150.</div>
+            <h3 class="title">Headings</h3>
+            <div class="subtitle">All HTML headings, from h1 through h6, are available.</div>
+
             <div class="output-cont">
-                <img class="round-img" src="../assets/image1.jpeg" alt="round-image" />
-                <img class="round-img" src="../assets/image2.jpeg" alt="round-image" />
+                <div class="heading-cont">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
             </div>
 
+            <h3 class="title">Font Family</h3>
+            <div class="subtitle">Gimesto uses 'Nunito' as its default font.</div>
+            
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
-                    <code class="html hljs xml">
-                        <-- Using the 'round-img' class name -->
-                        
-                        &lt;img class="round-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
+                    <code class="css hljs xml">
+                        <-- It is by default imported in gimesto -->
+
+                        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
-
-            <h3 class="title">Square Image</h3>
-            <div class="subtitle">Square images are square shape genrally used to display product pictures etc. Default dimension for these images will be 150x150.</div>
-            <div class="output-cont">
-                <img class="sq-img" src="../assets/image3.jpeg" alt="square-image" />
-                <img class="sq-img" src="../assets/image6.jpeg" alt="square-image" />
-            </div>
-
-            <!-- Code Snippet Section Start -->
-            <div>
-                <pre>
-                    <code class="html hljs xml">
-                        <-- Using the 'sq-img' class name -->
-                        
-                        &lt;img class="sq-img" src="../assets/image1.jpeg" alt="round-image" /&gt;
-                    </code>
-                </pre>
-            </div> 
-            <!-- Code Snippet Section End -->
-
-            <h3 class="title">Responsive Image</h3>
-            <div class="subtitle">The images which changes their size when we resize the browser width.</div>
-            <div class="output-cont">
-                <img class="resp-img" src="../assets/image4.jpeg" alt="responsive-image" />
-            </div>
-
-            <!-- Code Snippet Section Start -->
-            <div>
-                <pre>
-                    <code class="html hljs xml">
-                        <-- Using the 'resp-img' class name -->
-                        
-                        &lt;img class="resp-img" src="../assets/image1.jpeg" alt="responsive-image" /&gt;
-                    </code>
-                </pre>
-            </div> 
-            <!-- Code Snippet Section End -->
-           
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/card.html"><i class="bi bi-caret-left-fill left-icon"></i>Card</a>
-                <a class="navigation-next" href="/components/input.html" >Input<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/colors.html"><i class="bi bi-caret-left-fill left-icon"></i>Colors</a>
+                <a class="navigation-next" href="/components/avatar.html" >Avatar<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>
