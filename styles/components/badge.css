@@ -3,8 +3,8 @@
 }
 .badge > div {
   position: absolute;
-  height: 14px;
-  width: 14px;
+  height: 18px;
+  width: 18px;
   bottom: 8px;
   right: 8px;
   border-radius: 50%;
@@ -49,8 +49,8 @@
   justify-content: center;
   align-items: center;
   font-size: 0.6rem;
-  height: 18px;
-  width: 18px;
+  height: 22px;
+  width: 22px;
   border: none;
   top: 1px;
   right: 8px;
@@ -63,7 +63,7 @@
   font-size: 75%;
   font-weight: 700;
   line-height: 1.4em;
-  padding: 0.1rem 0.5rem;
+  padding: 0.4rem 0.6rem;
   margin: 0 0.1rem;
   background-color: var(--COLOR-PRIMARY);
   color: var(--COLOR-LIGHT);

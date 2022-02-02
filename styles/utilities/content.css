@@ -80,3 +80,8 @@ code {
   background-color: var(--COLOR-LINK);
   border-radius: 5px;
 }
+@media screen and (max-width: 800px) {
+  .doc-container {
+    padding: 0 0.5rem;
+  }
+}

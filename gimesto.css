@@ -9,3 +9,7 @@
   font-family: "Nunito", sans-serif;
   box-sizing: border-box;
 }
+body {
+  max-width: 1368px;
+  margin: auto;
+}
