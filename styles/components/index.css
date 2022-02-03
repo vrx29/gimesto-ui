@@ -1,0 +1,33 @@
+@import url(./avatar.css);
+@import url(./badge.css);
+@import url(./alert.css);
+@import url(./button.css);
+@import url(./card.css);
+@import url(./image.css);
+@import url(./input.css);
+@import url(./colors.css);
+@import url(./typography.css);
+
+:root {
+  --COLOR-PRIMARY: #9142f5;
+  --COLOR-PRIMARY-HOVER: #8224f9;
+
+  --COLOR-SECONDARY: #325bfe;
+  --COLOR-SECONDARY-HOVER: #0738fa;
+
+  --COLOR-LINK: #e2c9ff;
+
+  --COLOR-DARK: #1e1e1e;
+  --COLOR-LIGHT: #ffffff;
+
+  --COLOR-SUCCESS: #00b377;
+  --COLOR-WARNING: #feab00;
+  --COLOR-ERROR: #fa3246;
+
+  --COLOR-GRAY-100: #c6cbd9;
+  --COLOR-GRAY-200: #9a9aaf;
+  --COLOR-GRAY-300: #7e7e8f;
+  --COLOR-GRAY-400: #656575;
+  --COLOR-GRAY-500: #535362;
+  --COLOR-GRAY-600: #2e2e3a;
+}
