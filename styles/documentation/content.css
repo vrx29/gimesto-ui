@@ -31,6 +31,10 @@
   border-radius: 5px;
   background: #f5f5ff;
 }
+.output-cont .btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 
 pre {
   white-space: pre-line;

@@ -11,10 +11,8 @@
   background-color: var(--COLOR-GRAY-100);
 }
 .btn:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
+  background-color: var(--COLOR-PRIMARY-HOVER);
 }
-
 /* || Different Button Colors */
 .btn-primary {
   background-color: var(--COLOR-PRIMARY);
