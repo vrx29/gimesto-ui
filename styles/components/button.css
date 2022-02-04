@@ -2,6 +2,8 @@
 .btn {
   min-width: 120px;
   padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
   max-height: 40px;
   font-weight: 600;
   color: var(--COLOR-LIGHT);
