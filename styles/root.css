@@ -12,6 +12,7 @@
 @import url(./components/colors.css);
 @import url(./components/typography.css);
 @import url(./components/footer.css);
+@import url(./components/text_utilities.css);
 
 /* || Utilities */
 @import url(./utilities/anchor.css);

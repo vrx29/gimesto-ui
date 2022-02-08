@@ -43,7 +43,7 @@
                 </div>
                 <ul class="list-subtopic">
                     <li >
-                        <a  class="active" href="#">Installation</a>
+                        <a href="/components/installation.html">Installation</a>
                     </li>
                     <li>
                         <a href="/components/colors.html">Colors</a>
@@ -89,7 +89,7 @@
                         <a href="/components/lists.html">Lists</a>
                     </li>
                     <li>
-                        <a href="/components/navigation.html">Navigation</a>
+                        <a class="active" href="#">Navigation</a>
                     </li>
                 </ul>
             </div>
@@ -99,45 +99,41 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h2 class="title">Installation</h2>
-            <div class="subtitle">In order to use Gimesto in your project, Copy the Link given below and paste it in the head tag of your html, it contains all the component styles shown on this website, which can be easily created using the defined classes.</div>
+            <h2 class="title">Navigation</h2>
+            <div class="subtitle">Typography is the art and technique of arranging letters and characters known as type. It also refers to different elements of typography including the size of the letters, line length and the spacing on a line or the entire page.</div>
 
-            <h3 class="title">HTML Import</h3>
-            <div class="subtitle">This library can be imported using the cdn link in head tag of your html document.</div>
+            <h3 class="title">Headings</h3>
+            <div class="subtitle">All HTML headings, from h1 through h6, are available.</div>
 
-            <!-- Code Snippet Section Start -->
-            <div>
-                <pre>
-                    <code class="html hljs xml">
-                        <-- Copy this code and paste inside head tag of your html file -->
-                        
-                        &lt;link rel="stylesheet" type="text/css" href="https://gimesto.netlify.app/gimesto.css" /&gt;
+            <div class="output-cont">
+                <div class="heading-cont">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
+                </div>
+            </div>
 
-                    </code>
-                </pre>
-            </div>   
-            <!-- Code Snippet Section End -->
-
-            <h3 class="title">CSS Import</h3>
-            <div class="subtitle">This library can be installed by importing the css throught import tag inside your root css file.</div>
-
+            <h3 class="title">Font Family</h3>
+            <div class="subtitle">Gimesto uses 'Nunito' as its default font.</div>
+            
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="css hljs xml">
-                        <-- Copy this code and paste inside root css file of your project -->
-                        
-                        @import url("https://gimesto.netlify.app/gimesto.css");
+                        <-- It is by default imported in gimesto -->
 
+                        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
-
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <!-- <a class="navigation-prev" href="/components/avatar.html"><i class="bi bi-caret-left-fill left-icon"></i>Avatar</a> -->
-                <a class="navigation-next" href="/components/colors.html">Colors<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/lists.html"><i class="bi bi-caret-left-fill left-icon"></i>Lists</a>
+                <!-- <a class="navigation-next" href="/components/avatar.html" >Avatar<i class="bi bi-caret-right-fill right-icon"></i></a> -->
             </div>
             <!-- Page Navigation Section End -->
         </section>
