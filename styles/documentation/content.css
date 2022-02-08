@@ -31,6 +31,10 @@
   border-radius: 5px;
   background: #f5f5ff;
 }
+.output-cont .btn:hover {
+  transform: scale(1.1);
+  transition: 0.2s;
+}
 
 pre {
   white-space: pre-line;
@@ -79,4 +83,9 @@ code {
   color: var(--COLOR-PRIMARY);
   background-color: var(--COLOR-LINK);
   border-radius: 5px;
+}
+@media screen and (max-width: 800px) {
+  .doc-container {
+    padding: 0 0.5rem;
+  }
 }

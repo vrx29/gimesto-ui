@@ -2,21 +2,24 @@
 .btn {
   min-width: 120px;
   padding: 0.8rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 40px;
   font-weight: 600;
   color: var(--COLOR-LIGHT);
   border-radius: 5px;
   border: transparent;
   cursor: pointer;
-  background-color: var(--COLOR-GRAY-100);
-}
-.btn:hover {
-  transform: scale(1.1);
-  transition: 0.2s;
+  background-color: var(--COLOR-DARK);
 }
 
 /* || Different Button Colors */
 .btn-primary {
   background-color: var(--COLOR-PRIMARY);
+}
+.btn-primary:hover {
+  background-color: var(--COLOR-PRIMARY-HOVER);
 }
 .btn-secondary {
   background-color: var(--COLOR-SECONDARY);
@@ -35,7 +38,7 @@
 .outline {
   background-color: transparent;
   color: var(--COLOR-DARK);
-  border: 1px solid var(--COLOR-GRAY-100);
+  border: 1px solid var(--COLOR-DARK);
 }
 .outline-primary {
   background-color: transparent;
