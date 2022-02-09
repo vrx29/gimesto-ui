@@ -7,6 +7,8 @@
 @import url(./input.css);
 @import url(./colors.css);
 @import url(./typography.css);
+@import url(./text_utilities.css);
+@import url(./list.css);
 
 :root {
   --COLOR-PRIMARY: #9142f5;

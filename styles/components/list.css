@@ -1,0 +1,34 @@
+.list-decimal {
+  list-style: decimal;
+}
+
+.list-roman {
+  list-style: lower-roman;
+}
+
+.list-dots {
+  list-style-type: disc;
+}
+
+.list-square {
+  list-style-type: square;
+}
+
+.list-stacked {
+  list-style-type: none;
+}
+
+.list-stacked .list-item {
+  padding: 0.5rem 1rem 0.5rem 0.3rem;
+  min-width: 20rem;
+  margin: 0.2rem;
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 1px solid var(--COLOR-GRAY-100);
+}
+
+.output-cont ol,
+.output-cont ul {
+  margin: 1rem;
+}
