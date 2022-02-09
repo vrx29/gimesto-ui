@@ -35,18 +35,18 @@
     <!-- Main Section Start -->
     <main class="doc-container">
         <!-- Sidebar Section Start -->
-        <aside class="sidebar">
+        <nav class="sidebar">
             <!-- Getting Started Navigation Start -->
             <div>
                 <div class="list-topic">
-                    GETTING STARTED
+                    <a  href="#">GETTING STARTED</a>
                 </div>
                 <ul class="list-subtopic">
                     <li >
                         <a href="/components/installation.html">Installation</a>
                     </li>
                     <li>
-                        <a  class="active" href="#">Colors</a>
+                        <a href="/components/colors.html">Colors</a>
                     </li>
                     <li>
                         <a href="/components/typography.html">Typography</a>
@@ -58,7 +58,7 @@
             <!-- Components Navigation Start -->
            <div>
                 <div class="list-topic">
-                    COMPONENTS
+                    <a class="" href="#">COMPONENTS</a>
                 </div>
                 <ul class="list-subtopic">
                     <li>
@@ -86,7 +86,7 @@
                         <a href="/components/text.html">Text Utilites</a>
                     </li>
                     <li>
-                        <a href="/components/lists.html">Lists</a>
+                        <a class="active" href="#">Lists</a>
                     </li>
                     <li>
                         <a href="/components/navigation.html">Navigation</a>
@@ -94,45 +94,46 @@
                 </ul>
             </div>
             <!-- Components Navigation End -->
-        </aside>
+        </nav>
         <!-- Sidebar Section End -->
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h2 class="title">Colors</h2>
-            <div class="subtitle">Gimesto has predefined color system for its users. If you are confused while selecting the colors you can choose pre-defined colors.</div>
+            <h2 class="title">List</h2>
+            <div class="subtitle">Typography is the art and technique of arranging letters and characters known as type. It also refers to different elements of typography including the size of the letters, line length and the spacing on a line or the entire page.</div>
 
-            <h3 class="title">Default Colors</h3>
-            <div class="subtitle">Below are the colors which are most comonly used.</div>
+            <h3 class="title">Headings</h3>
+            <div class="subtitle">All HTML headings, from h1 through h6, are available.</div>
+
             <div class="output-cont">
-                <div class="color-palette">
-                    <div class="btn-primary">Primary<span>#9142F5</span></div>
-                    <div class="btn-secondary">Secondary <span>#325bfe</span></div>
-                    <div class="btn-warning">Warning <span>#feab00</span></div>
-                    <div class="btn-error">Error <span>#fa3246</span></div>
-                    <div class="btn-success">Success <span>#00b377</span></div>
+                <div class="heading-cont">
+                    <h1>Heading 1</h1>
+                    <h2>Heading 2</h2>
+                    <h3>Heading 3</h3>
+                    <h4>Heading 4</h4>
+                    <h5>Heading 5</h5>
+                    <h6>Heading 6</h6>
                 </div>
             </div>
 
-            <h3 class="title">Grayscale Colors</h3>
-            <div class="subtitle">Below are the variations of gray color used.</div>
-            <div class="output-cont">
-                <div class="color-palette">
-                    <div class="clr-white">LIGHT<span>#FFFFFF</span></div>
-                    <div class="clr-gray-1">GRAY 100<span>#c6cbd9</span></div>
-                    <div class="clr-gray-2">GRAY 200<span>#9a9aaf</span></div>
-                    <div class="clr-gray-3">GRAY 300<span>#7e7e8f</span></div>
-                    <div class="clr-gray-4">GRAY 400<span>#656575</span></div>
-                    <div class="clr-gray-5">GRAY 500<span>#535362</span></div>
-                    <div class="clr-gray-6">GRAY 600<span>#2e2e3a</span></div>
-                    <div class="clr-dark">DARK<span>#1E1E1E</span></div>
-                </div>
-            </div>
+            <h3 class="title">Font Family</h3>
+            <div class="subtitle">Gimesto uses 'Nunito' as its default font.</div>
+            
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="css hljs xml">
+                        <-- It is by default imported in gimesto -->
 
+                        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/installation.html"><i class="bi bi-caret-left-fill left-icon"></i>Installation</a>
-                <a class="navigation-next" href="/components/typography.html" >Typography<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/text.html"><i class="bi bi-caret-left-fill left-icon"></i>Text Utilites</a>
+                <a class="navigation-next" href="/components/navigation.html" >Navigation<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>

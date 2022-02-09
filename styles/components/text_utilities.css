@@ -1,0 +1,75 @@
+.txt-3xl {
+  font-size: 2rem;
+}
+
+.txt-2xl {
+  font-size: 1.5rem;
+}
+
+.txt-xl {
+  font-size: 1.25rem;
+}
+
+.txt-lg {
+  font-size: 1.125rem;
+}
+
+.txt-md {
+  font-size: 1rem;
+}
+
+.txt-sm {
+  font-size: 0.875rem;
+}
+
+.txt-xs {
+  font-size: 0.75rem;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-primary {
+  color: var(--COLOR-PRIMARY);
+}
+
+.txt-error {
+  color: var(--COLOR-ERROR);
+}
+
+.txt-success {
+  color: var(--COLOR-SUCCESS);
+}
+
+.txt-warning {
+  color: var(--COLOR-WARNING);
+}
+
+.txt-gray-1 {
+  color: var(--COLOR-GRAY-200);
+}
+
+.txt-gray-2 {
+  color: var(--COLOR-GRAY-300);
+}
+
+.txt-gray-3 {
+  color: var(--COLOR-GRAY-400);
+}
+
+.txt-gray-4 {
+  color: var(--COLOR-GRAY-500);
+}
+
+.txt-cont {
+  width: 100%;
+}
