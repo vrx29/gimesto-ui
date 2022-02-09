@@ -100,32 +100,130 @@
         <!-- Main Content Section Start -->
         <section class="doc-content">
             <h2 class="title">List</h2>
-            <div class="subtitle">Typography is the art and technique of arranging letters and characters known as type. It also refers to different elements of typography including the size of the letters, line length and the spacing on a line or the entire page.</div>
+            <div class="subtitle">Lists can be used to display information in points not in a single paragraph, like notifications etc.</div>
 
-            <h3 class="title">Headings</h3>
-            <div class="subtitle">All HTML headings, from h1 through h6, are available.</div>
+            <h3 class="title">Simple List</h3>
+            <div class="subtitle">Simple list are of two types either ordered list or unordered list.</div>
 
             <div class="output-cont">
-                <div class="heading-cont">
-                    <h1>Heading 1</h1>
-                    <h2>Heading 2</h2>
-                    <h3>Heading 3</h3>
-                    <h4>Heading 4</h4>
-                    <h5>Heading 5</h5>
-                    <h6>Heading 6</h6>
-                </div>
+                <ol class="list-decimal">
+                    <li>This is first point</li>
+                    <li>This is second point</li>
+                    <li>This is third point</li>
+                </ol>
+                <ol class="list-decimal" reversed>
+                    <li>This is first point</li>
+                    <li>This is second point</li>
+                    <li>This is third point</li>
+                </ol>
+                <ol class="list-roman">
+                    <li>This is first point</li>
+                    <li>This is second point</li>
+                    <li>This is third point</li>
+                </ol>
             </div>
-
-            <h3 class="title">Font Family</h3>
-            <div class="subtitle">Gimesto uses 'Nunito' as its default font.</div>
             
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
-                    <code class="css hljs xml">
-                        <-- It is by default imported in gimesto -->
+                    <code class="html hljs xml">
+                       &lt;ol class="list-decimal"&gt;
+                            &lt;li&gt;This is first point&lt;/li&gt;
+                            &lt;li&gt;This is second point&lt;/li&gt;
+                            &lt;li&gt;This is third point&lt;/li&gt;
+                        &lt;/ol&gt;
 
-                        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
+                        &lt;ol class="list-decimal" reversed&gt;
+                            &lt;li&gt;This is first point&lt;/li&gt;
+                            &lt;li&gt;This is second point&lt;/li&gt;
+                            &lt;li&gt;This is third point&lt;/li&gt;
+                        &lt;/ol&gt;
+
+                        &lt;ol class="list-roman"&gt;
+                            &lt;li&gt;This is first point&lt;/li&gt;
+                            &lt;li&gt;This is second point&lt;/li&gt;
+                            &lt;li&gt;This is third point&lt;/li&gt;
+                        &lt;/ol&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <div class="output-cont">
+                <ul class="list-dots">
+                    <li>This is first point</li>
+                    <li>This is second point</li>
+                    <li>This is third point</li>
+                </ul>
+                <ul class="list-square">
+                    <li>This is first point</li>
+                    <li>This is second point</li>
+                    <li>This is third point</li>
+                </ul>
+            </div>
+
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        &lt;ul class="list-dots"&gt;
+                            &lt;li&gt;This is first point&lt;/li&gt;
+                            &lt;li&gt;This is second point&lt;/li&gt;
+                            &lt;li&gt;This is third point&lt;/li&gt;
+                        &lt;/ul&gt;
+
+                        &lt;ul class="list-square"&gt;
+                            &lt;li&gt;This is first point&lt;/li&gt;
+                            &lt;li&gt;This is second point&lt;/li&gt;
+                            &lt;li&gt;This is third point&lt;/li&gt;
+                        &lt;/ul&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
+            <h3 class="title">Stacked List</h3>
+            <div class="subtitle">Stacked list have a complete custom component inside &lt;li&gt; tag.</div>
+
+            <div class="output-cont">
+                <ul class="list-stacked">
+                    <li class="list-item">
+                        <img src="../assets/avatars/avatar1.jpg" class="avatar"/>
+                        <div>
+                            <p class="txt-md">Vineet Kumar</p>
+                            <p class="txt-sm txt-gray-1">vineet@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="../assets/avatars/avatar2.jpg" class="avatar"/>
+                        <div>
+                            <p class="txt-md">Vineet Kumar</p>
+                            <p class="txt-sm txt-gray-1">vineet@gmail.com</p>
+                        </div>
+                    </li>
+                    <li class="list-item">
+                        <img src="../assets/avatars/avatar4.jpg" class="avatar"/>
+                        <div>
+                            <p class="txt-md">Vineet Kumar</p>
+                            <p class="txt-sm txt-gray-1">vineet@gmail.com</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                       &lt;ul class="list-stacked"&gt;
+                            &lt;li class="list-item"&gt;
+                                 &lt;img src="../assets/avatar" class="avatar"/&gt;
+                                 &lt;div&gt;
+                                     &lt;p class="txt-md">Vineet Kumar &lt;/p&gt;
+                                     &lt;p class="txt-sm txt-gray-1">vineet@gmail.com &lt;/p&gt;
+                                 &lt;/div&gt;
+                            &lt;/li&gt;
+                        &lt;/ul&gt;
                     </code>
                 </pre>
             </div>   
