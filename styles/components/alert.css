@@ -14,8 +14,9 @@
   line-height: 1rem;
 }
 .alert-subtext {
-  margin-top: 0.5rem;
-  color: #ffffffb2;
+  display: inline-block;
+  margin-top: 0.6rem;
+  color: var(--COLOR-LIGHT);
   font-size: 0.875rem;
   line-height: 1rem;
 }
