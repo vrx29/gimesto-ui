@@ -70,8 +70,8 @@
   display: none;
 }
 .btn-radio {
-  width: 24px;
-  height: 24px;
+  width: 18px;
+  height: 18px;
   border: 1px solid var(--COLOR-PRIMARY);
   border-radius: 50%;
   margin-right: 0.6rem;

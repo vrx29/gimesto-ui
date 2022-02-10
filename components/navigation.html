@@ -100,32 +100,48 @@
         <!-- Main Content Section Start -->
         <section class="doc-content">
             <h2 class="title">Navigation</h2>
-            <div class="subtitle">Typography is the art and technique of arranging letters and characters known as type. It also refers to different elements of typography including the size of the letters, line length and the spacing on a line or the entire page.</div>
+            <p class="subtitle">It is way that helps users or visitors to find content that they want to see. It is simply a way of navigating pages, content and information on website using internet.</p>
 
-            <h3 class="title">Headings</h3>
-            <div class="subtitle">All HTML headings, from h1 through h6, are available.</div>
+            <h3 class="title">Navigation Bar</h3>
+            <p class="subtitle">Navigation bar contains all the main actions to be performed on the website and should be visible on all pages.</p>
 
             <div class="output-cont">
-                <div class="heading-cont">
-                    <h1>Heading 1</h1>
-                    <h2>Heading 2</h2>
-                    <h3>Heading 3</h3>
-                    <h4>Heading 4</h4>
-                    <h5>Heading 5</h5>
-                    <h6>Heading 6</h6>
-                </div>
+                <header class="navbar">
+                    <div class="logo">
+                        <a href="../index.html">Gimesto</a>  
+                    </div>
+                    <div class="search-cont">
+                        <input class="input" type="email" placeholder="Search" />
+                    </div>
+                    <nav class="nav-links">
+                        <a><i class="bi bi-shop-window"></i><span>Shop</span></a>
+                        <a><i class="bi bi-heart"></i><span>Wishlist</span></a>
+                        <a><i class="bi bi-cart3"></i><span>Cart</span></a>
+                        <button class="btn btn-primary">Login</button>
+                        <button class="nav-menu"><i class="bi bi-list"></i></button>
+                    </nav>
+                </header>
             </div>
-
-            <h3 class="title">Font Family</h3>
-            <div class="subtitle">Gimesto uses 'Nunito' as its default font.</div>
             
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
-                    <code class="css hljs xml">
-                        <-- It is by default imported in gimesto -->
-
-                        @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap");
+                    <code class="html hljs xml">
+                        &lt;header class="navbar"&gt;
+                            &lt;div class="logo"&gt;
+                                &lt;a href="../index.html">Gimesto&lt;/a&gt;
+                            &lt;/div&gt;
+                            &lt;div class="search-cont"&gt;
+                                &lt;input class="input" type="email" placeholder="Search" /&gt;
+                            &lt;/div&gt;
+                            &lt;nav class="nav-links"&gt;
+                                &lt;a&gt;&lt;i class="bi bi-shop-window"&gt;&lt;/i&gt;&lt;span&gt;Shop&lt;/span&gt;&lt;/a&gt;
+                                &lt;a&gt;&lt;i class="bi bi-heart"&gt;&lt;/i&gt;&lt;span&gt;Wishlist&lt;/span&gt;&lt;/a&gt;
+                                &lt;a&gt;&lt;i class="bi bi-cart3"&gt;&lt;/i&gt;&lt;span&gt;Cart&lt;/span&gt;&lt;/a&gt;
+                                &lt;button class="btn btn-primary"&gt;Login&lt;/button&gt;
+                                &lt;button class="nav-menu"&gt;&lt;i class="bi bi-list"&gt;&lt;/i&gt;&lt;/button&gt;
+                            &lt;/nav&gt;
+                        &lt;/header&gt;
                     </code>
                 </pre>
             </div>   
