@@ -26,6 +26,7 @@
   position: relative;
   overflow: hidden;
   padding: 0;
+  border: 1px solid var(--COLOR-GRAY-100);
 }
 .card-ecom:hover {
   box-shadow: 1px 1px 40px 5px rgba(0, 0, 0, 0.05);
@@ -88,6 +89,10 @@
 }
 .card-ecom .discount {
   color: var(--COLOR-PRIMARY);
+}
+.card-ecom .card-footer {
+  display: flex;
+  gap: 0.5rem;
 }
 
 /* Horizontal Card */
@@ -152,8 +157,14 @@
 }
 .card-overlay .card-body {
   position: absolute;
-  top: 4rem;
-  left: 1rem;
+  top: 0;
+  left: 0;
+  padding: 1rem;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
   color: var(--COLOR-LIGHT);
 }
 .card-overlay-text {
