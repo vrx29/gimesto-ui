@@ -35,11 +35,11 @@
     <!-- Main Section Start -->
     <main class="doc-container">
         <!-- Sidebar Section Start -->
-        <aside class="sidebar">
+        <nav class="sidebar">
             <!-- Getting Started Navigation Start -->
             <div>
                 <div class="list-topic">
-                    GETTING STARTED
+                    <a  href="#">GETTING STARTED</a>
                 </div>
                 <ul class="list-subtopic">
                     <li >
@@ -58,14 +58,14 @@
             <!-- Components Navigation Start -->
            <div>
                 <div class="list-topic">
-                    COMPONENTS
+                    <a class="" href="#">COMPONENTS</a>
                 </div>
                 <ul class="list-subtopic">
                     <li>
                         <a href="/components/avatar.html">Avatar</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Alert</a>
+                        <a href="/components/alert.html">Alert</a>
                     </li>
                     <li>
                         <a href="/components/badge.html">Badge</a>
@@ -92,7 +92,7 @@
                         <a href="/components/navigation.html">Navigation</a>
                     </li>
                     <li>
-                        <a href="/components/modal.html">Modal</a>
+                        <a class="active" href="#">Modal</a>
                     </li>
                     <li>
                         <a href="/components/rating.html">Rating</a>
@@ -106,75 +106,46 @@
                 </ul>
             </div>
             <!-- Components Navigation End -->
-        </aside>
+        </nav>
         <!-- Sidebar Section End -->
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h1 class="title">Alert</h1>
-            <p class="subtitle">In-line alerts display a non-modal message associated with objects in a view.</p>
-
+            <h2 class="title">Modal</h2>
+            <p class="subtitle">A modal is a dialog box/popup window that is displayed on top of the current page.</p>
 
             <div class="output-cont">
-                <div class="alerts-cont">
-                    <div class="alert primary">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your Information message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
-                    <div class="alert success">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your success message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
-                     <div class="alert warning">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your warning message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
-                     <div class="alert error">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your error message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
+                <button class="btn" id="openModal">Open Modal</button>
+                <div class="modal-cont" id="myModal">
+                    <div class="modal">
+                         <button class="btn btn-icon btn-close">
+                            <i class="bi bi-x"></i>        
+                        </button>
+                        <h3 class="modal-title">Modal Title</h3>
+                        <p class="txt-gray-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem atque minus eveniet, quaerat necessitatibus eum consectetur, rem quam quas sint. Est sint perspiciatis temporibus nihil, id minus impedit nobis.
+                        </p>
+                        <div class="modal-footer">
+                            <button class="btn outline">Close</button>
+                            <button class="btn btn-primary">Accept</button>
                         </div>
                     </div>
                 </div>
             </div>
-
+            
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'alert' class name -->
-                        
-                        <-- Using the 'primary' class name for showing primary alert -->
-                        <-- Use other classes like 'success', 'warning' and 'error' -->
-
-                        &lt;div class="alert primary"&gt;
-                            &lt;div class="alert-icon"&gt;
-                                &lt;img src="../assets/alert-icon.svg" alt="alert-icon" /&gt;
-                            &lt;/div&gt;
-                            &lt;div class="alert-content"&gt;
-                                &lt;div class="alert-title">
-                                    Your success message - make it short
-                                &lt;/div&gt;
-                                &lt;div class="alert-subtext">
-                                    Describe the event and give further instructions if needed, including links to other pages
+                        &lt;div class="modal-cont" id="myModal"&gt;
+                            &lt;div class="modal"&gt;
+                                &lt;button class="btn btn-icon btn-close"&gt;
+                                    &lt;i class="bi bi-x"&gt;&lt;/i&gt;        
+                                &lt;/button&gt;
+                                &lt;h3 class="modal-title">Modal Title&lt;/h3&gt;
+                                &lt;p class="txt-gray-2">Lorem ipsum.&lt;/p&gt;
+                                &lt;div class="modal-footer"&gt;
+                                    &lt;button class="btn outline"&gt;Close&lt;/button&gt;
+                                    &lt;button class="btn btn-primary"&gt;Accept&lt;/button&gt;
                                 &lt;/div&gt;
                             &lt;/div&gt;
                         &lt;/div&gt;
@@ -182,11 +153,10 @@
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
-
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/avatar.html"><i class="bi bi-caret-left-fill left-icon"></i>Avatar</a>
-                <a class="navigation-next" href="/components/badge.html" >Badge<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/navigation.html"><i class="bi bi-caret-left-fill left-icon"></i>Navigation</a>
+                <a class="navigation-next" href="/components/rating.html" >Rating<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>
@@ -198,4 +168,5 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
     <script src="../scripts/header.js"></script>
+    <script src="../scripts/modal.js"></script>
 </html>

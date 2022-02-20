@@ -10,6 +10,8 @@
 @import url(./text_utilities.css);
 @import url(./list.css);
 @import url(./navigation.css);
+@import url(./modal.css);
+@import url(./rating.css);
 
 :root {
   --COLOR-PRIMARY: #9142f5;
@@ -33,4 +35,8 @@
   --COLOR-GRAY-400: #656575;
   --COLOR-GRAY-500: #535362;
   --COLOR-GRAY-600: #2e2e3a;
+
+  --COLOR-BACKDROP: #00000066;
+
+  --Z-INDEX-MODAL: 10;
 }
