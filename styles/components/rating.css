@@ -1,0 +1,12 @@
+.rating-cont {
+  display: flex;
+  gap: 0.1rem;
+}
+
+.input-rating {
+  display: none;
+}
+
+.input-rating:checked + .rating-icon {
+  color: var(--COLOR-WARNING);
+}

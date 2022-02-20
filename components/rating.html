@@ -35,11 +35,11 @@
     <!-- Main Section Start -->
     <main class="doc-container">
         <!-- Sidebar Section Start -->
-        <aside class="sidebar">
+        <nav class="sidebar">
             <!-- Getting Started Navigation Start -->
             <div>
                 <div class="list-topic">
-                    GETTING STARTED
+                    <a  href="#">GETTING STARTED</a>
                 </div>
                 <ul class="list-subtopic">
                     <li >
@@ -58,14 +58,14 @@
             <!-- Components Navigation Start -->
            <div>
                 <div class="list-topic">
-                    COMPONENTS
+                    <a class="" href="#">COMPONENTS</a>
                 </div>
                 <ul class="list-subtopic">
                     <li>
                         <a href="/components/avatar.html">Avatar</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Alert</a>
+                        <a href="/components/alert.html">Alert</a>
                     </li>
                     <li>
                         <a href="/components/badge.html">Badge</a>
@@ -95,7 +95,7 @@
                         <a href="/components/modal.html">Modal</a>
                     </li>
                     <li>
-                        <a href="/components/rating.html">Rating</a>
+                        <a class="active" href="#">Rating</a>
                     </li>
                     <li>
                         <a href="/components/toast.html">Toast</a>
@@ -106,87 +106,73 @@
                 </ul>
             </div>
             <!-- Components Navigation End -->
-        </aside>
+        </nav>
         <!-- Sidebar Section End -->
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h1 class="title">Alert</h1>
-            <p class="subtitle">In-line alerts display a non-modal message associated with objects in a view.</p>
-
+            <h2 class="title">Rating</h2>
+            <p class="subtitle">Rating components can be used as read-only badge or in reviews section for providing the review as well.</p>
 
             <div class="output-cont">
-                <div class="alerts-cont">
-                    <div class="alert primary">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your Information message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
-                    <div class="alert success">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your success message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
-                     <div class="alert warning">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your warning message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
-                     <div class="alert error">
-                        <div class="alert-icon">
-                            <img src="../assets/alert-icon.svg" alt="alert-icon" />
-                        </div>
-                        <div class="alert-content">
-                            <p class="alert-title">Your error message - make it short</p>
-                            <span class="alert-subtext">Describe the event and give further instructions if needed, including links to other pages</span>
-                        </div>
-                    </div>
+                <div class="rating-cont">
+                    <label>
+                        <input class="input-rating" type="checkbox" checked>
+                        <i class="bi bi-star-fill rating-icon"></i>
+                    </label>
+                    <label>
+                        <input class="input-rating" type="checkbox" checked >
+                        <i class="bi bi-star-fill rating-icon"></i>
+                    </label>
+                    <label>
+                        <input class="input-rating" type="checkbox" checked>
+                        <i class="bi bi-star-fill rating-icon"></i>
+                    </label>
+                    <label>
+                        <input class="input-rating" type="checkbox" >
+                        <i class="bi bi-star-fill rating-icon"></i>
+                    </label>
+                    <label>
+                        <input class="input-rating" type="checkbox" >
+                        <i class="bi bi-star-fill rating-icon"></i>
+                    </label>
                 </div>
             </div>
-
+            
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        <-- Using the 'alert' class name -->
-                        
-                        <-- Using the 'primary' class name for showing primary alert -->
-                        <-- Use other classes like 'success', 'warning' and 'error' -->
-
-                        &lt;div class="alert primary"&gt;
-                            &lt;div class="alert-icon"&gt;
-                                &lt;img src="../assets/alert-icon.svg" alt="alert-icon" /&gt;
-                            &lt;/div&gt;
-                            &lt;div class="alert-content"&gt;
-                                &lt;div class="alert-title">
-                                    Your success message - make it short
-                                &lt;/div&gt;
-                                &lt;div class="alert-subtext">
-                                    Describe the event and give further instructions if needed, including links to other pages
-                                &lt;/div&gt;
-                            &lt;/div&gt;
+                        &lt;div class="rating-cont"&gt;
+                            &lt;label&gt;
+                                &lt;input class="input-rating" type="checkbox" checked&gt;
+                                &lt;i class="bi bi-star-fill rating-icon"&gt;&lt;/i&gt;
+                            &lt;/label&gt;
+                            &lt;label&gt;
+                                &lt;input class="input-rating" type="checkbox" checked &gt;
+                                &lt;i class="bi bi-star-fill rating-icon"&gt;&lt;/i&gt;
+                            &lt;/label&gt;
+                            &lt;label&gt;
+                                &lt;input class="input-rating" type="checkbox" checked&gt;
+                                &lt;i class="bi bi-star-fill rating-icon"&gt;&lt;/i&gt;
+                            &lt;/label&gt;
+                            &lt;label&gt;
+                                &lt;input class="input-rating" type="checkbox" &gt;
+                                &lt;i class="bi bi-star-fill rating-icon"&gt;&lt;/i&gt;
+                            &lt;/label&gt;
+                            &lt;label&gt;
+                                &lt;input class="input-rating" type="checkbox" &gt;
+                                &lt;i class="bi bi-star-fill rating-icon"&gt;&lt;/i&gt;
+                            &lt;/label&gt;
                         &lt;/div&gt;
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
-
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/avatar.html"><i class="bi bi-caret-left-fill left-icon"></i>Avatar</a>
-                <a class="navigation-next" href="/components/badge.html" >Badge<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/modal.html"><i class="bi bi-caret-left-fill left-icon"></i>Modal</a>
+                <a class="navigation-next" href="/components/toast.html" >Toast<i class="bi bi-caret-right-fill right-icon"></i></a>
             </div>
             <!-- Page Navigation Section End -->
         </section>
