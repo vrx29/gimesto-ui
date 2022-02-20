@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  width: 100%;
+  gap: 1rem;
+}
+
+.col-2 {
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+}
+
+.col-3 {
+  grid-template-columns: repeat(3, minmax(200px, 1fr));
+}
+
+.grid-col {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--COLOR-LINK);
+}
+
+@media screen and (max-width: 698px) {
+  .grid {
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+  }
+}

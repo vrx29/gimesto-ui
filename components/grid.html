@@ -92,16 +92,16 @@
                         <a href="/components/navigation.html">Navigation</a>
                     </li>
                     <li>
-                        <a class="active" href="#">Modal</a>
+                        <a href="/components/modal.html">Modal</a>
                     </li>
                     <li>
-                        <a href="/components/rating.html">Rating</a>
+                        <a  href="/components/rating.html">Rating</a>
                     </li>
                     <li>
                         <a href="/components/toast.html">Toast</a>
                     </li>
                     <li>
-                        <a href="/components/grid.html">Grid</a>
+                        <a class="active" href="#">Grid</a>
                     </li>
                 </ul>
             </div>
@@ -111,52 +111,71 @@
 
         <!-- Main Content Section Start -->
         <section class="doc-content">
-            <h2 class="title">Modal</h2>
-            <p class="subtitle">A modal is a dialog box/popup window that is displayed on top of the current page.</p>
+            <h2 class="title">Grid</h2>
+            <p class="subtitle">Use our powerful mobile-first grid to build layouts of all shapes and sizes.</p>
+
+            <h3 class="title">Two column grid</h3>
+            <div class="subtitle">Using two column grid structure you can lay out your elements in two columns which is responsive as well.</div>
 
             <div class="output-cont">
-                <button class="btn" id="openModal">Open Modal</button>
-                <div class="modal-cont" id="myModal">
-                    <div class="modal">
-                        <button class="btn btn-icon btn-close">
-                            <i class="bi bi-x"></i>        
-                        </button>
-                        <h3 class="modal-title">Modal Title</h3>
-                        <p class="txt-gray-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque dolorem atque minus eveniet, quaerat necessitatibus eum consectetur, rem quam quas sint. Est sint perspiciatis temporibus nihil, id minus impedit nobis.
-                        </p>
-                        <div class="modal-footer">
-                            <button class="btn outline">Close</button>
-                            <button class="btn btn-primary">Accept</button>
-                        </div>
-                    </div>
-                </div>
+               <div class="grid col-2">
+                    <div class="grid-col">Row 1 Column 1</div>
+                    <div class="grid-col">Row 1 Column 2</div>
+                    <div class="grid-col">Row 2 Column 1</div>
+                    <div class="grid-col">Row 2 Column 2</div>
+               </div>
             </div>
             
             <!-- Code Snippet Section Start -->
             <div>
                 <pre>
                     <code class="html hljs xml">
-                        &lt;div class="modal-cont" id="myModal"&gt;
-                            &lt;div class="modal"&gt;
-                                &lt;button class="btn btn-icon btn-close"&gt;
-                                    &lt;i class="bi bi-x"&gt;&lt;/i&gt;        
-                                &lt;/button&gt;
-                                &lt;h3 class="modal-title">Modal Title&lt;/h3&gt;
-                                &lt;p class="txt-gray-2">Lorem ipsum.&lt;/p&gt;
-                                &lt;div class="modal-footer"&gt;
-                                    &lt;button class="btn outline"&gt;Close&lt;/button&gt;
-                                    &lt;button class="btn btn-primary"&gt;Accept&lt;/button&gt;
-                                &lt;/div&gt;
-                            &lt;/div&gt;
+                        &lt;div class="grid col-2"&gt;
+                            &lt;div class="grid-col"&gt;Row 1 Column 1&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 1 Column 2&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 2 Column 1&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 2 Column 2&lt;/div&gt;
                         &lt;/div&gt;
                     </code>
                 </pre>
             </div>   
             <!-- Code Snippet Section End -->
+
+            <h3 class="title">Three column grid</h3>
+            <div class="subtitle">Using three column grid structure you can lay out your elements in three columns which is responsive as well.</div>
+
+            <div class="output-cont">
+               <div class="grid col-3">
+                    <div class="grid-col">Row 1 Column 1</div>
+                    <div class="grid-col">Row 1 Column 2</div>
+                    <div class="grid-col">Row 1 Column 3</div>
+                    <div class="grid-col">Row 2 Column 1</div>
+                    <div class="grid-col">Row 2 Column 2</div>
+                    <div class="grid-col">Row 2 Column 3</div>
+               </div>
+            </div>
+            
+            <!-- Code Snippet Section Start -->
+            <div>
+                <pre>
+                    <code class="html hljs xml">
+                        &lt;div class="grid col-3"&gt;
+                            &lt;div class="grid-col"&gt;Row 1 Column 1&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 1 Column 2&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 1 Column 3&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 2 Column 1&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 2 Column 2&lt;/div&gt;
+                            &lt;div class="grid-col"&gt;Row 2 Column 3&lt;/div&gt;
+                        &lt;/div&gt;
+                    </code>
+                </pre>
+            </div>   
+            <!-- Code Snippet Section End -->
+
             <!-- Page Navigation Section Start -->
            <div class="page-navigation">
-                <a class="navigation-prev" href="/components/navigation.html"><i class="bi bi-caret-left-fill left-icon"></i>Navigation</a>
-                <a class="navigation-next" href="/components/rating.html" >Rating<i class="bi bi-caret-right-fill right-icon"></i></a>
+                <a class="navigation-prev" href="/components/toast.html"><i class="bi bi-caret-left-fill left-icon"></i>Toast</a>
+                <!-- <a class="navigation-next" href="/components/grid.html" >Grid<i class="bi bi-caret-right-fill right-icon"></i></a> -->
             </div>
             <!-- Page Navigation Section End -->
         </section>
@@ -168,5 +187,4 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
     <script>hljs.highlightAll();</script>
     <script src="../scripts/header.js"></script>
-    <script src="../scripts/modal.js"></script>
 </html>
