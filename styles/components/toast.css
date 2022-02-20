@@ -1,0 +1,34 @@
+.toast {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  max-width: 24rem;
+  height: 4rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  background-color: var(--COLOR-SECONDARY);
+}
+
+.toast-success {
+  background-color: var(--COLOR-SUCCESS);
+}
+
+.toast-warning {
+  background-color: var(--COLOR-WARNING);
+}
+
+.toast-error {
+  background-color: var(--COLOR-ERROR);
+}
+
+.toast-msg {
+  color: var(--COLOR-LIGHT);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.toast .btn-icon {
+  color: var(--COLOR-LIGHT);
+}
