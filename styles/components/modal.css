@@ -5,8 +5,8 @@
   left: 0;
   padding-top: 8rem;
   position: fixed;
-  z-index: 10;
-  background-color: #00000066;
+  z-index: var(--Z-INDEX-MODAL);
+  background-color: var(--COLOR-BACKDROP);
   display: none;
 }
 
