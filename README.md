@@ -38,6 +38,13 @@ Or you can import the stylesheet into your root CSS file.
 - [Card](#card)
 - [Image](#image)
 - [Input](#input)
+- [Text Utilities](#text)
+- [List](#list)
+- [Navigation](#navigation)
+- [Modal](#modal)
+- [Rating](#rating)
+- [Toast](#toast)
+- [Grid](#grid)
 
 </br>
 
