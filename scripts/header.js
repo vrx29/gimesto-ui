@@ -1,5 +1,7 @@
 let menu = document.querySelector(".menu");
 let sidebar = document.querySelector(".sidebar");
+let docContent = document.querySelector(".doc-content");
+
 menu.addEventListener("click", () => {
   let menuIcon = document.getElementById("menu-icon");
   if (menuIcon.classList.contains("bi-list")) {
@@ -12,4 +14,5 @@ menu.addEventListener("click", () => {
     console.log("else case " + menuIcon.classList);
   }
   sidebar.classList.toggle("sidebar-active");
+  docContent.classList.toggle("hide-doc");
 });

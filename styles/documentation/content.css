@@ -2,17 +2,21 @@
   display: flex;
   padding: 0 2rem;
 }
+
 .doc-content {
   min-width: 0;
   flex: 1 1 0%;
   padding: 2rem 1rem;
 }
+
 .doc-content h3 {
   margin-top: 1rem;
 }
+
 .title {
   margin-bottom: 1rem;
 }
+
 .subtitle {
   font-size: 1rem;
   line-height: 1.7rem;
@@ -31,6 +35,7 @@
   border-radius: 5px;
   background: #f5f5ff;
 }
+
 .output-cont .btn:hover {
   transform: scale(1.1);
   transition: 0.2s;
@@ -39,10 +44,13 @@
 pre {
   white-space: pre-line;
   overflow-x: auto;
+  font-family: monospace;
 }
+
 code {
   white-space: pre;
   border-radius: 5px;
+  font-family: monospace;
 }
 
 .page-navigation {
@@ -50,6 +58,7 @@ code {
   display: flex;
   justify-content: space-between;
 }
+
 .page-navigation a {
   display: flex;
   align-items: center;
@@ -59,13 +68,16 @@ code {
   cursor: pointer;
   color: var(--COLOR-DARK);
 }
+
 .page-navigation i {
   margin-bottom: 0.4rem;
 }
+
 .navigation-prev:hover {
   margin-left: 0.5rem;
   transition: all 0.3s ease-in-out;
 }
+
 .navigation-next {
   margin-left: auto;
 }
@@ -87,5 +99,9 @@ code {
 @media screen and (max-width: 800px) {
   .doc-container {
     padding: 0 0.5rem;
+  }
+
+  .doc-content {
+    padding: 1rem 0.5rem;
   }
 }
