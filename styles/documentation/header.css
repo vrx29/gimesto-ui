@@ -1,7 +1,7 @@
 .header {
   height: 68px;
   width: 100%;
-  padding: 0 2rem;
+  padding: 0 1rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -13,6 +13,7 @@
   z-index: 3;
   color: var(--COLOR-DARK);
 }
+
 .logo {
   font-size: 1.2rem;
   font-weight: 800;
@@ -20,35 +21,31 @@
   color: var(--COLOR-PRIMARY);
 }
 
+.logo-text {
+  color: var(--COLOR-WARNING);
+}
+
 .header-nav {
   list-style: none;
   display: flex;
+  gap: 4px;
 }
 
 .header-nav li a {
   color: var(--COLOR-DARK);
-  margin: 0 1rem;
+  font-size: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 40px;
-  padding: 0.5rem 1rem;
-  border: 1px solid var(--COLOR-DARK);
-  border-radius: 5px;
-  font-weight: 600;
-}
-.header-nav button:hover {
-  border: 1px solid var(--COLOR-PRIMARY-HOVER);
+  width: 40px;
 }
 
-.github-icon {
-  margin-right: 0.5rem;
-  margin-bottom: 0.3rem;
-}
 .menu {
   display: none;
 }
-.menu i {
+
+.header-nav li i {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -56,14 +53,15 @@
 
 @media screen and (max-width: 800px) {
   .menu {
-    font-size: 1.3rem;
+    font-size: 1.8rem;
     font-weight: 900;
     display: flex;
     justify-content: center;
-    border: 1px solid var(--COLOR-DARK);
     align-items: center;
-    padding: 0.4rem 1rem;
+    height: 40px;
+    width: 40px;
     background-color: transparent;
-    border-radius: 5px;
+    outline: none;
+    border: none;
   }
 }

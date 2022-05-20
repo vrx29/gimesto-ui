@@ -47,4 +47,7 @@
     display: block;
     width: 100%;
   }
+  .hide-doc {
+    display: none;
+  }
 }
